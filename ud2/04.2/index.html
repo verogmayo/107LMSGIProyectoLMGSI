@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- UTF-8 es un conjunto de caracteres que incluye casi todos los caracteres de casi cualquier idioma -->
+    <meta charset="UTF-8">
+    <!--Controla el ancho de la pagina dependiendo del dispositivo en que se encuentre el usuario-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Titulo que aparece en la pestaña de la pagina web en el navegador-->
+    <title>Véronique Grué</title>
+    <!--información sobre el autor del documento-->
+    <meta name="author" content="Véronique Grué">
+    <!-- descripción del contenido de la página-->
+    <meta name="descripción" content="Multimedia Curso Pastelería">
+    <!--se usa para especificar una fecha relevante-->
+    <meta name="fecha" content="29-11-2024">
+    <!-- motores de búsqueda que deben indexar la página-->
+    <meta name="robots" content="index, follow">
+    <!-- Este es el que aparece en la pestaña de la pagina web del navegador-->
+    <link type="images/png" rel="icon" href="../../Webroot/media/favicon/favicon-96x96.png">
+    <!-- Link a la carpeta local de CSS -->
+    <link href="css/estilos.css" rel="stylesheet" type="text/css">
+    <!--Enlaces de google fonts para que funcionen las fuentes que se hayan descargado de allí-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Handlee&display=swap" rel="stylesheet">
+<body>
+    <!-- El Header  es el espacio dedicado al emcabezado, con el titulo de la pagina-->
+    <header>
+        <h1>MULTIMEDIA <br>Curso de Repostería</h1>
+    </header>
+    <!-- El main es la parte central de la pagina web-->
+    <main>
+        <section>
+            <h2>Receta en videos</h2>
+            <div class="videos">
+                <!--para que funcione el enlace de youtube, hay que darle a compartir en el video de youtube e insertar, hay está el codigo completo para que funcione-->
+                <iframe class="video" src="https://www.youtube.com/embed/q13-PXe0f3Y?si=pB2y5hl01mwJgRwi"
+                title="YouTube video player"  style="border: none;"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+               
+                
+                    <!-- para inertar un video se utiliza la etiqueta video, controls para que aparezcan los controles-->
+                    <video class="video" controls>
+                        <source src="videos/BatirClaras.mp4" type="video/mp4">
+                        <source src="videos/BatirClaras.ogg" type="video/ogg">
+                        Tu navegador no soporta este video
+                    </video>
+                
+                    <video class="video" controls >
+                        <source src="videos/TortitasSirope.mp4" type="video/mp4">
+                        <source src="videos/TortitasSirope.ogg" type="video/ogg">
+                        Tu navegador no soporta este video
+                    </video>
+            </div>
+        </section>
+        <section>
+            <h2>Recetas en imagenes</h2>
+            <div class="imagenes">
+                <div class="imagen"><img src="images/ingredients.jpeg" alt="ingredientes" ></div>
+            <div class="imagen">
+                <img  src="images/regalo.gif" alt="regalo">
+            </div>
+            <div class="imagen">
+                <img  src="images/GalletasNavidad.jpg" alt="navidad">
+            </div>
+            </div>
+            
+        </section>
+        <section>
+            <h2 >Recetas en audio</h2>
+            <div class="audios">
+                <div class="audio"><p>Ingredientes</p>
+                    <audio class="tAudio" controls>
+                        <source src="audio/Ingredientes.mp3" type="audio/mp3">
+                        Tu navegador no soporta este audio
+                    </audio>
+                </div>
+                <div class="audio">
+                    <p>Elaboración</p>
+                    <audio class="tAudio" controls>
+                        <source src="audio/Preparación.mp3" type="audio/mp3">
+                        Tu navegador no soporta este audio
+                    </audio>
+                </div>
+                <div class="audio">
+                    <p>Receta tortitas saludables</p>
+                    <audio class="tAudio" controls>
+                        <source src="audio/TortitasSaludables.mp3" type="audio/mp3">
+                        Tu navegador no soporta este audio
+                    </audio>
+                   
+                </div>
+            </div>   
+        </section>
+    </main>
+    <footer>
+        <p>2024-25 IES LOS SAUCES. &#169;Todos los derechos reservados. </p>
+        <address><a href="../../index.html" id="nombre">Véronique Grué.</a>  Fecha de Actualización :<time datetime="2024-11-26T16:30:00">2024-11-26 - 16:30</time></address>
+        <a href="https://validator.w3.org/check?uri=https://daw107.ieslossauces.es/107LMSGIProyectoLMGSI/ud2/02/index.html">
+            <img src="../../../webroot/media/images/W3C®_Icon.svg" alt="Validado por W3C" width="88" height="31">
+          </a>
+        <!-- address es para poner los datos personales del autor. &#169 es el elemento copyright. datetime es para poner la fecha-->
+    </footer>
+</body>

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!-- UTF-8 es un conjunto de caracteres que incluye casi todos los caracteres de casi cualquier idioma -->
+    <meta charset="UTF-8">
+    <!--Controla el ancho de la pagina dependiendo del dispositivo en que se encuentre el usuario-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Titulo que aparece en la pestaña de la pagina web en el navegador-->
+    <title>Véronique Grué</title>
+    <!--información sobre el autor del documento-->
+    <meta name="author" content="Véronique Grué">
+    <!-- descripción del contenido de la página-->
+    <meta name="descripción" content="Plantilla de multimedia en HTML">
+    <!--se usa para especificar una fecha relevante-->
+    <meta name="fecha" content="25-10-2024">
+    <!-- motores de búsqueda que deben indexar la página-->
+    <meta name="robots" content="index, follow">
+    <!-- Este es el que aparece en la pestaña de la pagina web del navegador-->
+    <link type="images/png" rel="icon" href="../../Webroot/media/favicon/favicon-96x96.png">
+    <!-- Link a la carpeta local de CSS. De momento no la he tomado en cuenta porque no tiene mucho codigo -->
+    <!--<link href="../../css/estilos.css" rel="stylesheet" type="text/css">-->
+    <!-- Link a la carpeta local de CSS -->
+    <link href="css/estilos.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Handlee&display=swap" rel="stylesheet">
+<body>
+    <!-- El Header  es el espacio dedicado al emcabezado, con el titulo de la pagina-->
+    <header>
+        <h1>MULTIMEDIA: Curso de Repostería</h1>
+    </header>
+    <!-- El main es la parte central de la pagina web-->
+    <main>
+        <!-- p permite escribir texto en parafos-->
+        <p>Esta va a ser la primera receta de este curso. </p><br>
+        <p> Antes de empezar te aconsejamos
+            que busque una libreta bonita para ir apuntando las recetas que vas a ver en este curso!!!
+            Para empezar vamos a hacer la receta de las tortitas</p>
+        <!--Div permite hacer bloques-->
+        <div>
+            <div>
+                <h2>Tortitas</h2>
+                <p>Ingredientes para 12/15 tortitas: </p> 
+                <p>300 g de harina de todo uso.</p>
+                <p>40 g de azucar (puede ser blanco o moreno).</p>
+                <p>1 sobre de levadura.</p>
+                <p>1 pizca de sal.</p>
+                <p>400 ml de leche. </p>
+                <p>20 g de mantequilla fundida.</p>
+                <p>1 vaina de vainilla</p>
+                <p>2 huevos L</p>
+                <p>El primer paso será pesar los ingredientes</p>
+                <p>Para que la receta sea accesible para todos te dejamos aquí el audio de los ingredientes...</p>
+                <!-- audio permite insertar un audio, controls que aparezcas nos controles del audio, source contiene la ruta de la imagen-->
+                <audio controls>
+                    <source src="audio/Ingredientes.mp3" type="audio/mp3">
+                    Tu navegador no soporta este audio
+                </audio>
+            </div>
+            <!--img permite insertar una imagen -->
+            <div><img src="images/ingredients.jpeg" alt="ingredientes" height="300"></div>
+        </div>
+        <div>
+            <div>
+                <h2>ELABORACIÓN</h2>
+                <p>Primera etapa</p><br>
+                <p>Pon la mantequilla en un cuenco, 20 segundos en el microondas para derretirla.</p>
+                <p>Abrir la vaina de vainilla y con un cuchillo sacar las semillas.</p>
+                <p>Si no sabes como se hace, aqui tienes un video explicativo.</p>
+                <p>Pon la mantequilla en un cuenco, 20 segundos en el microondas para derretirla.</p>
+                <p>Mezcla en un bol los ingredientes secos( harina, azúcar, levadura).</p>
+                <p>Separa la yema de la la clara de los huevos.</p>
+                <p>En otro bol, bate un poco las yemas, y añade la mantequilla y la leche y las semillas de vainilla.
+                </p>
+            </div>
+            <div>
+                <!--para que funcione el enlace de youtube, hay que darle a compartir en el video de youtube e insertar, hay está el codigo completo para que funcione-->
+                <iframe height="200" width="300" src="https://www.youtube.com/embed/q13-PXe0f3Y?si=pB2y5hl01mwJgRwi"
+                    title="YouTube video player"  style="border: none;"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div>
+            <div>
+                <p>Segunda etapa</p>
+                <p>Añade la mezcla de liquida(huevos+mantequilla +leche +vainilla) a la mezcla de ingredientes secos
+                </p>
+                <p>Renueve hasta que la mezcla sea homogénea.</p>
+                <p>Monta las claras a punto de nieve.
+                    Si no sabes cómo hacerlo, puedes ver este video. En cuanto estén montadas, incorporarlas a la
+                    preparación anterior con movimientos envolventes.
+                </p>
+                <p>Cuando la mezcla esté homogénea.
+                    Coger una sartén antiadherente, calentarla y cuando esté caliente, echar un poco de masa y esperar a
+                    que
+                    salgan unas burbujitas y darle la vuelta. Cuando esté dorada por el otro lado ya está hecha.
+                    El fuego debe estar a temperatura media, ni muy fuerte ni muy suave. Repite hasta terminar con toda
+                    la
+                    masa.</p>
+                <p>Para que sea más accesible para todos, te dejamos aquí un audio de la preparación.</p>
+                <audio controls>
+                    <source src="audio/Preparación.mp3" type="audio/mp3">
+                    Tu navegador no soporta este audio
+                </audio>
+            </div>
+            <div>
+                <!-- para inertar un video se utiliza la etiqueta video, controls para que aparezcan los controles-->
+                <video controls width="300" height="300" class="claras">
+                    <source src="videos/BatirClaras.mp4" type="video/mp4">
+                    <source src="videos/BatirClaras.ogg" type="video/ogg">
+                    Tu navegador no soporta este video
+                </video>
+            </div>
+        </div>
+        <div>
+            <div>
+                <p>DECORACIÓN.
+                    Las tortiltas se pueden comer, así sin más, con fruta, con mermelada, con sirope de arce, o con lo
+                    que
+                    más te guste...</p>
+                <p>Aquí tienes un video con un ejemplo de decoración!!!</p>
+                <video controls height="300" width="500">
+                    <source src="videos/TortitasSirope.mp4" type="video/mp4">
+                    <source src="videos/TortitasSirope.ogg" type="video/ogg">
+                    Tu navegador no soporta este video
+                </video>
+            </div>
+            <div>
+                <img height="400" src="images/regalo.gif" alt="regalo">
+            </div>
+        </div>
+        <div>
+            <div>
+                <p><strong>BONUS!!!!!!</strong></p>
+                <p> Te dejamos aquí un audio de una versión saludable de tortitas...</p>
+                <audio controls>
+                    <source src="audio/TortitasSaludables.mp3" type="audio/mp3">
+                    Tu navegador no soporta este audio
+                </audio>
+                <p><strong>Y para la proxima entrega....</strong></p>
+                <p>Te adelanto que en la proxima entrega del curso haremos una galletas decoradas para navidad!!</p>
+            </div>
+            <div>
+                <img height="400" src="images/GalletasNavidad.jpg" alt="navidad">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>2024-25 IES LOS SAUCES. &#169;Todos los derechos reservados. </p>
+        <address><a href="../../index.html" id="nombre">Véronique Grué.</a>  Fecha de Actualización :<time datetime="2024-11-26T16:30:00">2024-11-26 - 16:30</time></address>
+        <a href="https://validator.w3.org/check?uri=https://daw107.ieslossauces.es/107LMSGIProyectoLMGSI/ud2/02/index.html">
+            <img src="../../../webroot/media/images/W3C®_Icon.svg" alt="Validado por W3C" width="88" height="31">
+          </a>
+        <!-- address es para poner los datos personales del autor. &#169 es el elemento copyright. datetime es para poner la fecha-->
+    </footer>
+</body>

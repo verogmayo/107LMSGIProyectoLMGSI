@@ -1,0 +1,145 @@
+:root{
+    --verdeBalu:#56B8A4;
+    --rosaBalu:#FD807E;
+    --grisBalu:#E4F0ED;
+    --verdeBordeBalu:#337265;
+    --azulEnviarBalu:#3E475C;
+    --fuenteBalu:'Amatic SC', sans serif;
+    --fuentePagina:'Handlee', sans serif;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: #343a40;
+    padding-top: 2px;
+    padding-bottom: 3%;
+}
+h1{
+    color: #f8f9fa;
+}
+/*Definir paleta de colores*/
+:root{
+    --color1:#00686c;
+    --color2:#32c2b9;
+    --color1:#edecb3;
+    /*color del texto*/
+    --color1:#fad928;
+    --color1:#ff9915;
+    --color :limegreen;
+}
+.titulo{
+    background-color: #00686c;
+    width: 100%;
+    text-align: center;
+    display:flex;
+    justify-content: center;/*centra horizontalmente*/
+    height: 50px;
+    align-items: center;/*centra verticalmente*/
+    padding-top: 5px;
+}
+.triangulo{
+    border-right: solid #fad928;
+    border-bottom: solid #fad928;
+    border-bottom-right-radius: 15px;
+    width: 200px; 
+    height: 40px;
+    border-top: none;
+    border-left: none;
+}
+h2{
+    color: #fad928;
+}
+.contenedor {
+    width: 100%; /*Ancho del contenedor*/
+    position: relative; /* Necesario para posicionar los elementos */
+    display: flex; /*para que se alideen las cajas dentro del contenedor*/
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    margin: 10px;
+  }
+.caja{
+    
+    width: 150px;/*ancho de las cajas*/
+    height: 150px; /*alto de las cajas*/
+    border: 5px; /*ancho del borde*/
+    border-style: solid; /*estilo del borde, en este caso es una linea continua*/
+    border-color: black; /*color del borde*/
+    display: inline-block; /*indica que las cajas estarán alineadas en el contenedor en lugar de estar en vertical que es como están por defecto*/
+    margin: 8px; /*margen*/
+    position: relative; /* Necesario para posicionar los elementos */
+    background-color: limegreen; /*color de fonde del cubo*/
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.caja:hover{
+    background-color: aquamarine;/*para que cuando se pase el raton cabie de color el fondo del dado*/
+}
+.circulo {
+    background: black; /*color del disco*/
+    border-radius: 50%; /*forma de circulo*/
+    width: 20px; /*ancho del disco*/
+    height: 20px;/* alto del disco*/
+    position: absolute; /* Para posicionar círculos en posiciones específicas */
+    z-index: 2;/*permite posicionar el circulo negro encima del circulo claro*/
+    transform: translate(-50%, -50%); /* Centra el círculo */
+}
+.circuloClaro{
+    background: #edecb3; /*Color del circulo*/
+    border-radius: 50%; /*forma el circulo*/
+    width: 25px;/*ancho del circulo*/
+    height: 25px;/*alto del circulo*/
+    position: absolute; /* Para posicionar círculos en posiciones específicas */
+    z-index: 1; /*permite posicionar el circulo claro debajo del circulo negro*/
+    transform: translate(-50%, -50%); /* Esto permite que coja como referencia de posicionamiento el centro del texto y no la esquina superior izquierda*/
+}
+.circulo1 {/* Posición del círculo arriba a la derecha */
+    top: 25%; 
+    left: 25%;
+}
+.circulo2 { /* Posición del círculo del centro */
+    top: 50%;
+    left: 50%;   
+}
+.circulo3 {/* Posición del círculo abajo a la izquierda */
+    top: 75%; 
+    left: 75%;
+}
+.circulo4 {/*Posición del círculo abajo a la izquierda*/
+    top: 75% ; 
+    left: 25%;
+}
+.circulo5 {/*Posición del círculo arriba a derecha*/
+    top: 25% ; 
+    left: 75%;
+}
+.circulo6{/*Posicion del círculo en el medio derecha*/
+    top:50%;
+    left:25%;
+}
+.circulo7{/*Posicion del círculo en el medio izquierda*/
+    top:50%;
+    left:75%
+}
+footer{
+    margin-top: 50px;
+   justify-content: center;
+   text-align: center;
+   color: black;
+   background-color: var(--grisBalu);
+   bottom: 0;
+   margin-bottom: 0;
+   font-family: 'Handlee';
+}
+footer p{
+    font-family: var(--fuentePagina);
+    font-size: 18px;
+}
+#nombre{
+    text-decoration: none;
+    color:var(--rosaBalu);
+}

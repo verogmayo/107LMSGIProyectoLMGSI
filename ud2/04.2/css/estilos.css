@@ -1,0 +1,163 @@
+:root{
+    --verdeBalu:#56B8A4;
+    --rosaBalu:#FD807E;
+    --grisBalu:#E4F0ED;
+    --verdeBordeBalu:#337265;
+    --azulEnviarBalu:#3E475C;
+    --fuenteBalu:'Amatic SC', sans serif;
+    --fuentePagina:'Handlee', sans serif;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    border-radius: 5px;
+    background-color: white;
+    height: 9em;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    display: flex;
+    margin: 20px;
+    margin-top:10px;
+}
+h1{
+    text-align: center; /*fuente y tamaño de la letra*/
+    font-family: 'Handlee', sans-serif;
+    color: palevioletred;
+   margin: 0px;    
+}
+h2{
+    font-family: 'Handlee', sans-serif;
+    text-align: center;
+    color: palevioletred;
+    width: 100%;
+    padding-top: 10px;   
+}
+body {
+    margin: 0 auto;
+    background-image: url('../images/fondoCupcaket50.png');
+    background-size: cover;
+    /* Ajusta la imagen para cubrir toda la pantalla */
+    background-repeat: no-repeat;
+    /* Evita que la imagen se repita */
+    background-position: center;
+    /* Centra la imagen */
+}
+p{
+    font-size: 12px; /*fuente y tamaño de la letra*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    
+}
+section{
+    width: 100%; /*ancho del div*/
+    display:flex;/*posiciona los div en linea*/
+    flex-direction: column;
+    justify-content: space-between; /*espacio entre divs*/
+   background-color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.videos{
+    display: flex; /*indica que las cajas estarán alineadas en el contenedor en lugar de estar en vertical que es como están por defecto*/
+   justify-content: center; /*Hay un espacio entre los divs*/
+   align-items: center;
+   height: 11em;
+   width: 100%;
+}
+.video{
+    
+    width: 100%; /* Ocupa todo el ancho del div */
+    height: 100%; /* Ocupa todo el alto del div */
+    object-fit: cover; /* Rellena el espacio manteniendo las proporciones */
+    border: none; /* Elimina bordes adicionales en el iframe */
+    height: 10em;
+   width: 10em;
+   margin: 0.5em;
+   border-radius:  5px;
+}
+.imagenes{
+    display: flex; /*indica que las cajas estarán alineadas en el contenedor en lugar de estar en vertical que es como están por defecto*/
+    justify-content: center; /*Hay un espacio entre los divs*/
+    align-items: center;
+    height: 11em;
+    width: 100%;
+   
+}
+.imagen{
+   margin: 0.5em;
+   border-radius: 5px;
+   height: 10em;
+   width: 10em;
+   object-fit: cover; /* Ajusta la imagen para rellenar el espacio */
+   overflow: hidden; /* Oculta cualquier parte de la imagen que sobresalga */
+}
+.audios{
+    display: flex; /*indica que las cajas estarán alineadas en el contenedor en lugar de estar en vertical que es como están por defecto*/
+    justify-content:center; /*Hay un espacio entre los divs*/
+    height: 4em;
+    width: 100%;
+}
+.audio{
+    flex-direction: column;
+    height: 5em;
+    width: 10em;
+}
+.tAudio{
+    width: 10em;
+    height: 2em;
+}
+div{
+   height: 10em;
+   width: 10em;
+   display: flex; /*indica que las cajas estarán alineadas en el contenedor en lugar de estar en vertical que es como están por defecto*/
+   flex-direction: row;  
+}
+#nombre{
+    text-decoration: none;
+    color:black;
+}
+footer{
+    margin-top: 50px;
+   justify-content: center;
+   text-align: center;
+   color: black;
+   background-color: var(--grisBalu);
+   bottom: 0;
+   margin-bottom: 0;
+   font-family: 'Handlee';
+}
+footer p{
+    font-family: var(--fuentePagina);
+    font-size: 18px;
+}
+#nombre{
+    text-decoration: none;
+    color:var(--rosaBalu);
+}
+/*
+footer{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+    background-color: palevioletred;
+    height: 2em;
+    margin-bottom: 0;
+}
+.footer{
+    color: white;
+    text-decoration: none;
+    height: 2em; Permite que la altura se ajuste automáticamente 
+    width: auto;  Ajusta el ancho al contenido 
+    white-space: nowrap;  Evita que el texto se divida en varias líneas 
+}
+.footer1{
+    margin-left: 70px;
+    color: white;
+    text-decoration: none;
+    height: 2em;  Permite que la altura se ajuste automáticamente 
+    width: auto; /* Ajusta el ancho al contenido 
+    white-space: nowrap; /* Evita que el texto se divida en varias líneas 
+}*/

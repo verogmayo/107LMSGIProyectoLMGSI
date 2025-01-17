@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Los juegos del hambre-Contacto</title>
+    <meta name="descripción" content="Trabajar con tablas">
+    <link type="images/png" rel="icon" href="webroot/media/images/favicon.png">
+    <link href="webroot/css/estilos.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header>
+        <h1>LOS JUEGOS DEL HAMBRE</h1>
+        <h4 class="suzanne">Suzanne Collins</h4>
+    </header>
+    <nav><!-- Menu de navegación-->
+        <ul><!-- La lista de enlaces-->
+            <li ><a class="subrayado" href="inicio.html">INICIO</a></li> <!-- li etiqueta para las lineas de un lista-->
+            <li><a class="subrayado" href="personajes.html">PERSONAJES</a></li>
+            <li><a class="subrayado" href="lasaga.html">LA SAGA</a></li>
+            <!-- Enlaces: en el href de a, hay que poner la pababra de enlace a sitio enlazado con un #-->
+            <li><a class="subrayado" href="extras.html">EXTRAS</a></li>
+            <li><a  id="aamarillo" href="contacto.html">CONTACTO</a></li>
+        </ul>
+    </nav>
+    <main>
+        <form action="hola.php" method="POST">
+            <div class="contacto">
+                <h2 class="sesion">Iniciar Sesión </h2>
+                <div class="form">
+                    <!-- label con el nombre del atributo(for),y el texto que se quiera que aparezca delante del formulario-->
+                    <label class="formulario" for="usuario"> USUARIO </label><br>
+                    <!-- El input crea la linea de formulario. hay que poner en type el tipo de dato que se va a pedir, 
+             en name, el nombre del input, en id, un identificador único y en placeholder se pone el texto que 
+             queremos que aparezca dentro del la casilla del formulario, que desaparecerá en cuanto el usuario 
+             escriba algo-->
+                    <input type="text" name="usuario" id="usuario" placeholder="Usuario" size="78" required>
+                </div>
+                <div class="form2">
+                    <label class="formulario" for="contr">CONTRASEÑA</label>
+                <input type="password" id="contr" name="contr" minlength="8" size="78" placeholder="Contraseña">
+                
+                </div>
+                <div>
+                    <input type="submit" value="Login" size="78">
+                </div>
+            </div>
+                 
+            
+               
+        </form>
+    </main>
+    <footer>
+        <p >&#169;2024 Los juegos del Hambre Fan Page | Todos los derechos reservados. </p>
+    </footer>
+</body>
+</html>

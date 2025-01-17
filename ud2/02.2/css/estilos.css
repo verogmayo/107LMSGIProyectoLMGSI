@@ -1,0 +1,365 @@
+:root{
+    --color1:#134678;/*Azul Oscuro*/ 
+    --color2:#2980b9;/*azul claro*/ 
+    --color3:#134678;/*borde del articulo y de la sección*/ 
+    --color4:#ecf0f1; /*celdas de la tabla*/ 
+    --color5:#f39c12;/*color del recreo*/ 
+    --color6:#d5dbdb;/*color del hoover de la tabla*/
+    --verdeBalu:#56B8A4;
+    --rosaBalu:#FD807E;
+    --grisBalu:#E4F0ED;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 1024px;/*ancho del body*/
+    margin: 0 auto;/*margen del body, se queda centrado*/
+    font-family: Arial, Helvetica, sans-serif;/*tipo de fuente del body*/
+}
+header{
+    background-color:var(--color1) ;/*color del fondo del header*/
+}
+nav{
+    position: sticky;/*permite que la barra de navegación se quede fija al hacer scroll*/
+    position: -webkit-sticky;/*garantiza la compatibilidad del sticky con la mayoria de navegadores*/
+    top: 0;/*posición del sticky*/
+    z-index: 999;/*posición de la "capa" del sticky por encima de las otras "capas" de los otros elmentos*/
+    background-color: var(--color1);/*color del fondo del nav*/
+    padding-left: 10px;/*padding izquierdo */
+    padding-right: 10px;/*padding derecho. PAra que esten todos un poco más en el centro*/
+}
+ul{
+    list-style: none;/*quita el stilo de las listas*/
+    display: flex;/*permite dar flexibilidad a los bloques*/
+    justify-content: space-around;/*permite posicionar los elemento de la lista separados unos de otras a igual distancia*/
+    padding: 10px;/*padding de la lista*/
+    margin: 0;/*margen 0 de la lista*/ 
+}
+li{
+    padding: 5px;/*padding de las lineas de la lista*/
+    display: inline-block;/*alinea los elementos de la lista*/
+}
+a{
+    text-decoration: none;/*quita el subrayado de los links*/
+    color: white;  /*color del texto de los  links*/
+}
+a:hover{
+    text-decoration: underline;/*permite que aparezca un subrayado cuando se acerca el raton*/
+}
+div{
+    display: flex;/*permite flexibilidad de los bloques*/
+    justify-content: stretch;/*el bloque ocupa todo el alto*/
+    align-items: center;/*centra los bloques*/
+}
+h1{
+    color: white;/*color del h1*/
+    font-family: 'Roboto Slab';/*Fuente del h1*/
+    letter-spacing: 5px;/*deja espacio entre las letras*/
+}
+.logolossauces{
+    width: 170px;/*ancho del logo*/
+    height: 170px;/*alto del logo*/
+    padding-left: 20px;/*padding del logo*/
+}
+h2{
+    font-family: 'Montserrat', sans-serif;/*tipo de fuente de los h2*/
+    text-decoration: overline; /*subrayado superior*/
+    margin-top: 3px; /*margen superior del h2*/
+    margin-bottom: 1px;/*margen inferior del h2*/
+}
+h3{
+    padding: 20px ;
+}
+section{
+    border: solid 1px var(--color3);/*borde de la section, tipo de borde y color*/
+    border-radius: 10px;/*redondea las esquinas*/
+    margin: 10px;/*margen de la section*/
+    padding: 15px;/*padding de la section*/
+    padding-bottom: 1px;/*padding inferior de la section*/
+    margin-top: 15px;/*margen superior de la section*/
+    margin-bottom: 20px;/*margen inferior de la section*/
+}
+#iconos{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-bottom: 10px;
+}
+#iconos a{
+    margin-left: 30px;
+}
+#instagram{
+    border: solid black;
+    clip-path: polygon(17% 17%, 83% 17%, 82% 83%, 17% 82%);
+}
+#rss{
+    margin-right: 15px;
+}
+#contentararticulos{
+    width: 945px;
+    height: 860px;
+}
+#Horario{
+   position: absolute;
+   top: 22em;
+   z-index: 1;
+   background-color: blue;
+   width: 945px;
+   
+}
+#LMGSI{
+    position: absolute;
+   top:25em;
+   z-index: 2;
+   background-color: cyan;
+   width: 945px;
+   
+}
+#BD{
+    position: absolute;
+   top: 28em;
+   z-index: 3;
+   background-color: orange;
+   width: 945px;
+   
+}
+#Prog{
+    position: absolute;
+   top: 31em;
+   z-index: 4;
+   background-color: greenyellow;
+   width: 945px;
+   
+}
+#Entornos{
+    position: absolute;
+   top: 34em;
+   z-index: 5;
+   background-color: gray;
+   width: 945px;
+   
+}
+#Sistemas{
+    position: absolute;
+   top: 37em;
+   z-index: 6;
+   background-color: red;
+   width: 945px;
+   
+}
+#FOL{
+    position: absolute;
+   top: 40em;
+   z-index: 7;
+   background-color: saddlebrown ;
+   width: 945px;
+  
+}
+#OPT1{
+    position: absolute;
+   top: 43em;
+   z-index: 8;
+   background-color: #252850;
+   width: 945px;
+}
+#Horario:hover{
+    z-index: 10;
+    height: 833px;
+ }
+ #Horario:hover table{
+   margin-top: 20%;  
+ }
+ #Horario:hover footer{
+    justify-content: end;
+   text-align: center;  
+   margin-top:17%;
+ }
+ #LMGSI:hover{
+    z-index: 10;
+    height: 833px;
+ }
+ #LMGSI:hover table{
+    margin-top: 20%;  
+  }
+  #LMGSI:hover footer{
+     justify-content: end;
+    text-align: center;  
+    margin-top:17%;
+  }
+ #BD:hover{
+    z-index: 10;
+    height: 833px;
+ }
+ #BD:hover table{
+    margin-top: 20%;  
+  }
+  #BD:hover footer{
+     justify-content: end;
+    text-align: center;  
+    margin-top:17%;
+  }
+ #Prog:hover{
+    z-index: 10;
+    height: 833px;
+}
+#Prog:hover table{
+    margin-top: 20%;  
+  }
+  #Prog:hover footer{
+     justify-content: end;
+    text-align: center;  
+    margin-top:17%;
+  }
+ #Entornos:hover{
+    z-index: 10;
+    
+    height: 833px;
+ }
+ #Entornos:hover table{
+    margin-top: 20%;  
+  }
+  #Entornos:hover footer{
+     justify-content: end;
+    text-align: center;  
+    margin-top:17%;
+  }
+ #Sistemas:hover{
+    z-index: 10;
+    height: 833px;
+ }
+ #Sistemas:hover table{
+    margin-top: 20%;  
+  }
+  #Sistemas:hover footer{
+     justify-content: end;
+    text-align: center;  
+    margin-top:17%;
+  }
+ #FOL:hover{
+    z-index: 10;
+    height: 833px;
+ }
+ #FOL:hover table{
+    margin-top: 20%;  
+  }
+  #FOL:hover footer{
+     justify-content: end;
+    text-align: center;  
+    margin-top:17%;
+  }
+ #OPT1:hover{
+    z-index: 10;
+    height: 833px;
+ }
+ #OPT1:hover table{
+    margin-top: 20%;  
+  }
+  #OPT1:hover footer{
+     justify-content: end;
+    text-align: center;  
+    margin-top:17%;
+  }
+table{
+    width: 90%; /*ancho de la tabla*/
+    margin: auto;/*margen de la tabla*/
+    border-collapse: collapse;/*colapsa los bordes de la tabla*/
+    text-align: center;/*centra el texto de la tabla*/
+}
+tr{
+    height: 3em;/*alto de las lineas de la tabla*/
+}
+h3{
+   color: var(--color2);/*color del texto de los h3*/
+   font-family: 'Merriweather', serif;/*tipo de fuente de los h2*/
+}
+th{
+    background-color: var(--color2);/*color de fondo de las thead de la tabla*/
+    color: white;/*color de los caracteres de los thead*/
+    text-transform: uppercase;/*escribe las palabras en mayusculas*/
+}
+td{
+    background-color:var(--color4) ; /*color de fondo de las celdas*/
+}
+td[colspan="5"] {
+    background-color: var(--color5);/*las celdas del recreo que son las colspan 5, seran todas de color naranja*/
+  }
+td:hover{
+    background-color: #d5dbdb; /*las celdas de la tabla cambiaran de color cuando este el cursor encima*/
+}
+abbr{
+    color: var(--color2);/*color de las abreviaturas*/
+    text-decoration: none;/*desaparece el subrayado inferior de las abreviaturas*/
+}
+abbr :hover{
+    text-decoration: underline; /*subraya los abbr al pasar el raton*/
+}
+article{
+    box-shadow:0 2px 10px rgba(0, 0, 0, 0.1) ;/*sombra del borde de los articles*/
+    padding-bottom: 1px;/*padding inferior del article inferior al predefinido*/
+    margin-top: 10px;/*margen superior de los article*/
+    margin-bottom: 30px;
+    border-radius: 10px;/*redondea las esquinas de los articles*/
+    border: solid 1px var(--color3) ;/*borde de los article, estilo de borde y color*/
+    text-align: center;/*centra el texto de los articles*/
+}
+article>footer{
+    text-align: center ;/*alinea el texto del footer de los article*/
+    font-family:Arial, Helvetica, sans-serif;/*tipo de fuente del footer de los articles*/
+    padding: 0;/*padding del footer de los article*/
+    color: white;
+    padding: 0 1px;
+}
+
+.casa{
+    position: fixed;/*posición fija del boton de la casita */
+    left: 92%;/*posicicionamiento desde la izquierda del boton de la casita*/
+    bottom: 10%;/*posicionamiento desde abajo del boton de la casita*/
+    width: 50px;/*ancho del boton*/
+    height: 50px; /*alto del boton*/
+}
+.pie{
+    top:1500px;
+    background-color: var(--color1);/*color del fondo del footer*/
+    text-align: center;/*alignación del texto del footer*/
+    padding: 10px;/*padding del pied de pagina*/
+    margin-top: 60px;
+}
+h4{
+    color: white;/*color de la fuente de los h4*/
+}
+.piepa{
+    color: white;/*color de la fuente de los p del footer*/
+    margin: 5px;/*margen de los p del footer*/
+    font-family: 'Handlee';
+    font-size: 18px;
+}
+address{
+    color: white;/*color del texto del adsress*/
+}
+.tablef{
+    padding: 10px;/*padding de la tabla del footer*/
+}
+.thf{
+    width: 40px;/*ancho de lod th del footer*/
+}
+.lenguaje{
+    letter-spacing: -1px;/*espacio reducido entre las letras de leguajes porque no entra bien en la tabla*/
+}
+.tablef td{
+    color: var(--color2);/*color de los td de la tabla del footer*/
+}
+#nombre{
+    color:var(--rosaBalu);
+    text-decoration: none;
+    font-family: 'Handlee';
+    font-size: 18px;
+}
+/*body{
+para que se quede pegado en footer abajo del todo
+display:flex
+flex-direction : 
+height:100%
+}
+

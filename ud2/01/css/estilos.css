@@ -1,0 +1,121 @@
+:root{
+    --verdeBalu:#56B8A4;
+    --rosaBalu:#FD807E;
+    --grisBalu:#E4F0ED;
+}
+body{
+    width: 640px;/*ancho del body*/
+    font-family: Arial, Helvetica, sans-serif;/*fuente del body*/
+    font-size: 16px;/*tamaño de la fuente de la letra del body*/
+    justify-content: center ;/*centra el contenido*/
+    margin: 0 auto;/*margen del body*/
+    background-image: url(../images/banner.jpeg);/*link al dibujo del volcan*/
+    background-repeat: no-repeat;/*para que el dibujo del volcan no se repita*/
+    background-attachment: fixed;/*posicion fija del dibujo del volcan*/
+    background-position: 100% center;/*posicion centrada y a la derecha del body, del dibujo del volcan*/
+}
+header{
+    text-align: center;/*alinea el texto del header*/
+    justify-content: center;/*centra el contenido del header*/
+    margin: 0 auto;/*margen del header*/
+    background-color: #343a40;/*color del fondo del header*/
+    padding-top: 2px;/*padding superior del header*/
+    padding-bottom: 3%;/*padding inferior del header*/
+}
+header a{
+    color:#f8f9fa;/*color de la fuente de los a del header*/
+    text-decoration: none;/*quita el subrayado de los a del header*/
+    margin: 10px;/*margen de los a del header*/
+}
+header a:hover{
+    text-decoration:underline;/*el hover permite que cuando pases el raton occura algo, en este caso aparecera el subrayado*/
+}
+h1{
+    font-family: 'Roboto Slab', serif;/*tipo de fuente de los h1/
+    font-size: 32px;/*tamaño de la fuente de los h1*/
+    color: #f8f9fa;/*color de la fuente de los h1*/
+}
+h2{
+    font-family: 'Montserrat',serif;/*tipo de fuente de los h2*/
+    font-size: 24px;/*tamaño de la fuente de los h2*/
+    text-decoration: overline;/*decoración del texto, en este caso subrayado superior*/
+}
+h3{
+    font-family: 'Merriweather', serif;/*tipo de fuente de los h3*/
+    font-size: 20px;/*tamaño de la fuente de los h3*/
+}
+section{
+    box-shadow:0 2px 10px rgba(0, 0, 0, 0.1) ;/*sombreado del borde de la section*/
+    background-color: #e0e0e0 ;/*color de fonde de la section*/
+    padding: 10px; /*padding de la section*/
+    margin-top: 10px;/*margen superior de la section*/
+    border-radius: 10px;/*redondea las esquinas de la section*/
+    padding-left: 5%;/*padding izquierdo de la section*/
+    padding-top: 17px;/*padding superior de la section*/
+}
+figure{
+    max-width: 90%;/*ancho maximo*/
+    border: solid #e0e0e0 ;/*borde de la figure, color y tipo de borde*/
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1) ;/*pone sombreado al borde de la figure*/
+    border-radius: 10px;/*redondea las esquinas de la figure*/
+    background-color:#e0e0e0 ;/*color del fondo*/
+    margin-top: 1px;
+}
+figcaption{
+    border: solid #e0e0e0 ;/*color del borde*/
+    background-color: #e0e0e0;/*color de fonde*/
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1) ; /*sombreado del borde del figcaption*/
+    padding: 3px;/*padding del figcaption*/
+    text-align: center; /*centra el texto*/
+}
+img{
+    max-width: 100%; /*tamaño de ancho*/
+    border-top-left-radius:  10px;/*redondea las esquinas de la imagen arriba a la izquierda*/
+    border-top-right-radius: 10px; /*redondea las esquinas de la imagen arriba a la derecha*/
+}
+footer{
+    margin: 0 auto;/*margen del footer*/
+    background-color: #343a40;/*color del fondo del footer*/
+    padding:2%;/*padding alrededor del footer*/
+    margin-top: 10px;/*margen superior del footer*/
+}
+.footer-content{
+    text-align: center;/* centra el texto*/
+    justify-content: center;/* centra en horizontal*/
+    color: white;/*color del texto del footer*/
+}
+.footer-contact{
+    text-align: center;/* centra el texto*/
+    justify-content: center;/* centra en horizontal*/
+    color: white;/*color del texto del footer*/
+}
+footer a:hover{
+    text-decoration: underline #0056b3; /*el hover permite que cuando pases el raton occura algo, en este caso aparecera el subrayado*/
+}
+footer a{
+    color:#007bff;/*color del texto de los links*/
+    text-decoration: none;/*quita el subrayado por defecto de los links*/
+}
+h1, h2, h3 {
+    margin: 2px; /* Es para reducir el margen por defecto, pq era demasiado */
+    padding: 2px; /*para reducir el padding por defecto*/
+}
+p{
+    margin-top: 1px;/*margen superior de los p*/
+    padding-top: 1px;/*padding superior de los p*/
+}
+.footer-social>ul{
+    display: flex; /*permite disponer los bloques como se quiera*/
+    justify-content: space-around;/*permite centrar los links y dejar espacio alrededor*/
+    padding-left: 120px;/*padding right and left para recocer los links un poco mas. para que esten mas cerca unos de otros.*/
+    padding-right: 120px;
+     list-style: none;/*quita el stilo de las lineas de la lista*/
+}
+.footer-social{
+    text-align: center;/*centra el texto */
+    color: white;/*color del texto*/
+}
+#nombre{
+    color: var(--rosaBalu);
+    text-decoration: none;
+}

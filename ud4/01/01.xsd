@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="mail">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="remitente" type="xs:string"/>
+                <xs:element name="destinatarios">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="destinatario" type="xs:string" maxOccurs="unbounded"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="fechamensaje">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="dia" type="xs:string"/>
+                            <xs:element name="mes" type="xs:string"/>
+                            <xs:element name="anio" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="asunto" type="xs:string"/>
+                <xs:element name="mensaje">
+                    <xs:complexType>
+                        <xs:choice maxOccurs="unbounded">
+                            <xs:element name="p" type="xs:string"/>
+                            <xs:element name="h1" type="xs:string"/>
+                            <xs:element name="h2" type="xs:string"/>
+                            <xs:element name="h3" type="xs:string"/>
+                            <xs:element name="h4" type="xs:string"/>
+                            <xs:element name="strong" type="xs:string"/>
+                            <xs:element name="ul">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="li" maxOccurs="unbounded">
+                                            <!-- mixed true permite que haya etiquetas y texto en el li. Sino da error-->
+                                            <xs:complexType mixed="true">
+                                                <xs:sequence>
+                                                    <xs:element name="strong" type="xs:string"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:choice>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="ficherosadjuntos">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="fichero" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="nombrefichero" type="xs:string"/>
+                                        <xs:element name="tipo_mime" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

@@ -1,0 +1,97 @@
+:root{
+    --verdeBalu:#56B8A4;
+    --rosaBalu:#FD807E;
+    --grisBalu:#E4F0ED;
+}
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+body{
+    background-color: var(--verdeBalu);
+    color: var(--grisBalu);
+    width: 1024px;
+}
+header{
+    text-align: center;
+    color: var(--verdeBalu);
+    height: 12em;
+    background-color: var(--grisBalu);
+    margin-bottom: 3em;
+    padding-top: 1em;
+}
+.curso{
+    font-family: 'Amatic SC';
+    font-weight: bold;
+    font-size:45px ;
+    text-align: center;
+}
+section{
+    font-family:'Handlee';
+    margin-top: 5em;
+    margin-bottom: 3em;
+    padding-top: 1em;
+
+}
+article{
+    display: flex;
+    height: 7em;
+    font-family:'Handlee';
+    align-items: center;
+    text-decoration-line: none;
+    padding-top: 1em;
+}
+div{
+    border: solid var(--rosaBalu);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5em;
+    width: 6em;
+    border-radius: 20px;
+    background-color: var(--rosaBalu);
+    font-family:'Handlee';
+    color: var(--grisBalu);
+    text-decoration-line: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration:underline 1px var(--grisBalu); 
+}
+h1{
+    font-family: 'Amatic SC';
+    font-size: 60px;
+    width: 10em;
+    margin-bottom: 3em; 
+}
+h2{
+    font-size: 35px;
+}
+h3{
+    margin: 1em;
+}
+#curso2{
+    height: 3em;
+}
+footer{
+    margin-top: 5em;
+    justify-items: center;
+    text-align: center;
+    background-color: var(--grisBalu);
+    color: black;
+    font-family: 'Handlee';
+}
+#nombre{
+    color: var(--rosaBalu);
+    text-decoration: none;
+    font-weight: bold;
+}
+.piep{
+    color: black;/*color de la fuente de los p del footer*/
+    margin: 5px;/*margen de los p del footer*/
+    font-family: 'Handlee';
+}

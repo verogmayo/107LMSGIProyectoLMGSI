@@ -1,0 +1,86 @@
+:root{
+    --verdeBalu:#56B8A4;
+    --rosaBalu:#FD807E;
+    --grisBalu:#E4F0ED;
+    --verdeBordeBalu:#337265;
+    --azulEnviarBalu:#3E475C;
+    --fuenteBalu:'Amatic SC', sans serif;
+    --fuentePagina:'Handlee', sans serif;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    text-align: center; /*fuente y tamaño de la letra*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    margin: 50px;
+}
+h3{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+h2{
+    margin-bottom: 20px;/*Margen inferior*/
+}
+body {
+    background-image: url('../images/fondo120.png');
+    background-size: cover;
+    /* Ajusta la imagen para cubrir toda la pantalla */
+    background-repeat: no-repeat;
+    /* Evita que la imagen se repita */
+    background-position: center;
+    /* Centra la imagen */
+    margin: 25px;
+}
+p{
+    font-size: 18px; /*fuente y tamaño de la letra*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+div{
+    width: 100%; /*ancho del div*/
+    display:flex;/*posiciona los divs hijos en linea*/
+    justify-content: space-between; /*espacio entre divs*/
+    padding: 10px; /*espacio entre el borde y el texto*/
+    margin: 10px;/*Margen exterior*/
+}
+div>div{
+    border: 10px; /*ancho del borde*/
+    border-style: solid; /*estilo del borde, en este caso es una linea continua*/
+    border-image-source: url('../images/frise3.png'); /* Ruta de la imagen */
+    border-image-slice: 30; /* Ajusta según sea necesario */
+    border-image-repeat: repeat; /* repite la del imagen del borde */ 
+    display: inline-flex; /*indica que las cajas estarán alineadas en el contenedor en lugar de estar en vertical que es como están por defecto*/
+   
+    background-repeat: no-repeat; /*no repite la imagenes de fondo*/
+    justify-content: space-between; /*Hay un espacio entre los divs hijos*/
+    }
+div>div:nth-child(1){/*Selecciona el primer hijo div*/
+    background-position: center, center; /*centra el fondo*/
+    flex-direction: column;/*está alineado en columna*/
+}
+div>div:nth-child(2){/*Selecciona el segundo hijo div*/
+    width: 50%; /* el ancho es del 50%*/
+    background-position: center, center; /*la imagen de fondo está centrada*/
+    background-size:contain;  /*utiliza todo el espacio*/
+}
+.claras{
+    object-position: center center;/*centra el video*/
+}
+footer{
+    margin-top: 50px;
+   justify-content: center;
+   text-align: center;
+   color: black;
+   background-color: var(--grisBalu);
+   bottom: 0;
+   margin-bottom: 0;
+   font-family: 'Handlee';
+}
+footer p{
+    font-family: var(--fuentePagina);
+}
+#nombre{
+    text-decoration: none;
+    color:var(--rosaBalu);
+}

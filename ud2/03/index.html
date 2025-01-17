@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <!--charset:codificación de caracteres utilizada en el documento.-->
+    <meta charset="UTF-8">
+    <!--controla el diseño en dispositivos móviles-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--información sobre el autor del documento-->
+    <meta name="author" content="Véronique Grué">
+    <meta name="descripción" content="Plantilla de formulario en HTML">
+    <!--se usa para especificar una fecha relevante-->
+    <meta name="fecha" content="18-10-2024">
+    <!-- motores de búsqueda que deben indexar la página-->
+    <meta name="robots" content="index, follow">
+    <title>Véronique Grué</title>
+    <link type="images/png" rel="icon" href="../../Webroot/media/favicon/favicon-96x96.png">
+    <!--<link href="../../css/estilos.css" rel="stylesheet" type="text/css" />-->
+    <link href="css/estilos.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Handlee&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 >Plantilla de formulario de Curso de Repostería</h1>
+    </header>
+    <h2>Para registrarse en la pagina del curso de Repostería tienes que cumplimentar este formulario </h2> <br><br>
+    <div class="contenedor">
+        <form action="hola.php" method="POST">
+            <!-- Imagen centrada a la derecha con class del style del head-->
+                 <fieldset> <!-- Se utiliza el fieldset para separa los formularios por grupos en campos se puede poner borde-->
+                <!-- se pone legend para ponerle un "titulo" al campo-->
+                <legend>
+                    <h2 >Información personal </h2>
+                </legend><br>
+                <!-- Se pone los div para que los formularios estén uno debajo del otro-->
+                <div>
+                    <!-- label con el nombre del atributo(for),y el texto que se quiera que aparezca delante del formulario-->
+                    <label for="nombre"> Nombre  : </label> <br>
+                    <!-- El input crea la linea de formulario. hay que poner en type el tipo de dato que se va a pedir, 
+             en name, el nombre del input, en id, un identificador único y en placeholder se pone el texto que 
+             queremos que aparezca dentro del la casilla del formulario, que desaparecerá en cuanto el usuario 
+             escriba algo-->
+                    <input type="text" name="nombre" id="nombre" placeholder="Escriba aqui su Nombre" size="50" required>
+                </div>
+                <br>
+                <div>
+                    <!-- Se puede incluir el input dentro del label, se se hace eso no haría falta poner el for en el 
+                     label y ni el id en el input -->
+                    <label for="apellidos">Apellidos<br>
+                        <input type="text" name="apellidos" id="apellidos" placeholder="Escriba sus Apellidos" size="50">
+                    </label>
+                </div>
+                <br>
+                <div>
+                    <label for="email">Email :</label><br>
+                    <input type="email" name="email" id="email" placeholder="hola@tumail.com" maxlength="50" size="50"
+                        required>
+                </div>
+                <br>
+                <div>
+                    <!--Para solicitar el numero de telefono se utiliza el input de type tel, pattern para ponerle un patrón
+                 y placehorlder para poner el ejemplo-->
+                    <label for="tel">Nº de teléfono : </label><br>
+                    <input type="tel" name="telefono" id="tel" placeholder="123-45-67-89"
+                        pattern="[0-9]{3} [-] [0-9]{2} [-] [0-9]{2} [-] [0-9]{2}" size="50" required>
+                </div>
+                <br>
+                <!-- Para solicitar la fecha de nacimiento utilizo un elemento date-->
+                <div>
+                    <label for="fechanac">Fecha de nacimeinto :</label><br>
+                    <input type="date" id="fechanac" name="fecha de nacimiento">
+                </div> <br>
+                <p>Para crear la cuenta introduce una contaseña</p>
+                <label for="contr">Password:</label><br>
+                <input type="password" id="contr" name="contr" minlength="8" size="50"><br><br>
+                <label for="sitioweb">Si tienes una pagina web indicanosla aquí :</label><br>
+                <input type="url" id="sitioweb" name="sitioweb" size="50" placeholder="https://www.ejemplo.com"
+                    required><br><br>
+                    <input type="submit" value="Enviar">
+            </fieldset><br><br>
+            <!-- Para saber el nivel de conociemiento previo en pastelería se utiliza una checkbox-->
+                <fieldset>
+                <legend>
+                    <h2 > Fecha de los cursos</h2>
+                </legend><br>
+                <!-- Para elegir la fecha  del curso se utiliza el elemento date con un rango en min y max  para la semana en que 
+                 se empartiran los cursos y un value  la fecha de inicio-->
+                <h3>La semana del 11 de noviembre empezamos con los cursos.</h3>
+                <h3>Inscribete en la fecha y hora que prefieras para hacer el curso : </h3> <br>
+                <div>
+                    <label for="fechac">Fecha del curso</label><br>
+                    <input type="date" id="fechac" name="fecha curso" value="2024-11-11" min="2024-11-11" max="2024-11-16">
+                </div><br>
+                <!-- Para elegir la hora del curso se utiliza el elemento  time con el rango del horario de los cursos y un step 
+                  de 7200 segundos para que solo se pueda selecionar horas en punto y cada 2 horas -->
+                <div>
+                    <label for="horac">Selecciona una hora:</label><br>
+                    <input type="time" id="horac" name="horacurso" value="10:00" min="10:00" max="12:00" step="7200"
+                        required>
+                </div><br>
+                <h3>Si no te interesa esa semana, indicanos que semana o el mes que te vendrían mejor :</h3> <br>
+                <div><!-- Para poder elegir la semana se utiliza el elemento week-->
+                    <label for="sem">Select a week:</label>
+                    <input type="week" id="sem" name="semana">
+                </div><br>
+                <div>
+                    <!-- Para poder elegir el mes se utiliza el elemento month -->
+                    <label for="mes">Selecciona el mes que te interesa</label>
+                    <input type="month" id="mes" name="mes">
+                    <br>
+                </div><br><br>
+            </fieldset><br><br>
+              <fieldset>
+                <legend>
+                    <h2 > Información sobre los cursos</h2>
+                </legend><br>
+                <div>
+                    <h3>Tenemos dos modalidades de cursos, individual o en grupo.</h3>
+                    <h4>Indicanos cual elijes.</h4>
+                    <!-- Para que se pueda seleccionar solo una opción el name tiene que ser igual en todos los input radio-->
+                    <label for="indv">Individual </label>
+                    <input type="radio" name="mod" id="indv">
+                    <label for="grp"> Grupo </label>
+                    <input type="radio" name="mod" id="grp">
+    
+                </div>
+                <br>
+                <br>
+                <div>
+                    <h3>Elige el curso que quieres hacer</h3>
+                    <label for="tipopast"> Tipo de pastelería: </label>
+                    <!-- Para crear un desplegable se crea un elemento Select con un nombre y un id 
+                     que tiene que ser el mismo que el (for)del label-->
+                    <select name="tipo de pastelería" id="tipopast" required>
+                        <!-- y se crea la lista de las diferentes opciones con <option>-->
+                        <option value="">Selecciona una opción</option>
+                        <option value="Francesa">Francesa</option>
+                        <option value="Americana">Americana</option>
+                        <option value="bollería">bollería</option>
+                        <option value="layer cake">layer cakes</option>
+                        <option value="nude cake">nude cakes</option>
+                    </select>
+                </div><br>
+                <div>
+                    <h3>Indicanos primero tu nivel de conocimiento en pasteleria :</h3>
+                    <label for="nbajo"> Nivel bajo</label>
+                    <input type="checkbox" name="nivel" id="nbajo">
+                    <label for="nmedio"> Nivel medio </label>
+                    <input type="checkbox" name="nivel" id="nmedio">
+                    <label for="nalto"> Nivel alto </label>
+                    <input type="checkbox" name="nivel" id="nalto">
+                </div><br><br>
+                <div>
+                    <h3>Indicanos tu nivel de creatividad.</h3>
+                    <label for="crea">Nivel de creatividad.</label>
+                    <!-- con el tipo range es para definir valores con una barra que desliza-->
+                    <input type="range" id="crea" name="crea" min="0" max="50">
+                </div><br>
+                <div>
+                    <h3>Indicanos si quieres cual es tu color favorito.</h3>
+                    <label for="colorPicker">Elige un color:</label>
+                    <input type="color" id="colorPicker" name="colorPicker" value="#FD807E">
+                </div><br>
+                <!-- Lista de opciones definidas -->
+                <div>
+                    <h3>Dinos porque quieres hacer el curso de repostería :</h3>
+                    <input type="checkbox" id="placer" name="intereses" value="placer" checked>
+                    <label for="placer">Por placer</label><br>
+                    <input type="checkbox" id="tecnuevas" name="intereses" value="tecnuevas">
+                    <label for="tecnuevas">Para aprender tecnicas nuevas</label><br>
+                    <input type="checkbox" id="negocio" name="intereses" value="negocio">
+                    <label for="negocio">Con vistas a montar un negocio</label><br>
+                </div><br>
+                <!-- Area de texto con textarea para que el usarios pueda hacer un comentario -->
+                <div> <!--Textarea permite obtener un cuadro de texto -->
+                    <h3>Aqui nos puedes escribir si tienes alguna pregunta, o si quieres hacer algún comentario</h3><br>
+                    <label for="com">Escribenos algo...</label>
+                    <textarea id="com" name="comentario" rows="5" cols="50"> Añade un comentario... Nos gustará leerte!!</textarea>
+                </div> <br>
+                <div> <!-- Input number es para solicitar un numero-->
+                    <h3>Indicanos la cantidad de horas que te gustaría dedicarle al curso para adaptarnos mejor a tus
+                        necesidades</h3>
+                    <label for="cantidad">Horas :</label>
+                    <input type="number" id="cantidad" name="cantidad" required>
+                </div> <br>
+                <div><!-- El tipo file permite subir a la web un archivo-->
+                    <h3>Si te apetece envianos unas de tus creaciones :</h3>
+                    <input type="file" id="foto" name="archivo" accept="image/*">
+                </div> <br>
+                <div><!-- tipo search es para hacer una busqueda-->
+                    <h3>Si quieres ver los detalles de alguno de los cursos puedes buscarlo aquí</h3>
+                    <label for="busqueda">Buscar:</label>
+                    <input type="search" id="busqueda" name="busqueda" placeholder="Buscar...">
+                </div><br><br>
+                <!-- el type reset permite que el usario  resetee lo escrito en la pagina-->
+                <input type="reset" value="Reset"><br>
+                <!-- El tipo hidden permite enviar informacion sin que el usuario la vea-->
+                <input type="hidden" name="cursosReposteria" value="557799">
+                <input type="image" src="images/Enviar.png" alt="Submit" width="50" height="70">
+            </fieldset>
+        </form> <br>
+    </div>
+    
+    <footer>
+        <p>2024-25 IES LOS SAUCES. &#169;Todos los derechos reservados. </p>
+        <address><a href="../../index.html" id="nombre">Véronique Grué.</a>  Fecha de Actualización :<time datetime="2024-11-26T16:30:00">2024-11-26 - 16:30</time></address>
+        <a href="https://validator.w3.org/check?uri=https://daw107.ieslossauces.es/107LMSGIProyectoLMGSI/ud2/02/index.html">
+            <img src="../../../webroot/media/images/W3C®_Icon.svg" alt="Validado por W3C" width="88" height="31">
+          </a>
+        <!-- address es para poner los datos personales del autor. &#169 es el elemento copyright. datetime es para poner la fecha-->
+    </footer>
+</body>
+</html>

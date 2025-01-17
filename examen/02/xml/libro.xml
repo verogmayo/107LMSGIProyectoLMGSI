@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE juegos SYSTEM 'libro.dtd'>
+<juegos>
+    <libro genero="ciencia ficcion,aventura,juvenil" >
+        <titulo>
+        The Hunger games
+        </titulo>
+        <autores>
+            <autor>
+                <nombre>Suzanne </nombre>
+                <apellido>Collins</apellido>
+                <nacionalidad>Estadounidense</nacionalidad>
+            </autor>
+        </autores>
+        <anio>2008</anio>
+    </libro>
+</juegos>

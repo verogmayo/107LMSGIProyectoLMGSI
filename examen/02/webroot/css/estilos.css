@@ -1,0 +1,209 @@
+:root{
+    --color1:#2C3E50; /*color de fondo header y footer*/
+    --color2:yellow;/* titulo nivel 1, menú activo,*/
+    --color3:white;
+    --color4:orange; /* titulo nivel 4*/
+    --colorboton: #3498db; /* color boton*/
+    --colorbotonhover: #2980b9;
+    --colorrequired:lightyellow; /*input con atributo required*/
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('../media/images/fondo.jpg');
+    background-size: cover;
+    height: 100%; 
+    display: flex;
+    flex-direction: column; /* Organiza los hijos en columna */
+    min-height: 100vh; /* Hace que el body ocupe al menos el alto de la pantalla */
+}
+
+header{
+    background-color: var(--color1);
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+nav{
+    display: flex;
+    padding-left: 15px;/*padding izquierdo */
+    padding-right: 15px;/*padding derecho. PAra que esten todos un poco más en el centro*/
+    background-color: black;
+}
+ul{
+    list-style: none;/*quita el stilo de las listas*/
+    display: flex;/*permite dar flexibilidad a los bloques*/
+    justify-content: space-around;/*permite posicionar los elemento de la lista separados unos de otras a igual distancia*/
+    padding: 10px;/*padding de la lista*/
+    margin: 0;/*margen 0 de la lista*/ 
+}
+li{
+    padding: 5px;/*padding de las lineas de la lista*/
+    display: inline-block;/*alinea los elementos de la lista*/
+}
+#aamarillo{
+    color: var(--color2);
+}
+.subrayado:hover{
+    text-decoration-line: underline;
+    text-decoration-color: var(--color2);
+}
+.suzanne{
+    color: var(--color3);
+    text-align: center;
+    font-size: 25px;
+}
+main{
+    flex: 1; /* Hace que el contenido principal ocupe todo el espacio restante */
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+h3{
+    color: var(--color2);
+    text-align: center;
+    margin-top: 2em;
+    font-size: 30px;
+}
+h4{
+    color: var(--color4);
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+.libros{
+    margin-top: 20px;
+    font-size: 15px;
+}
+a{
+    text-decoration: none;/*quita el subrayado de los links*/
+    color: white;  /*color del texto de los  links*/
+    font-size: 20px;
+    padding-right: 20px;
+}
+footer{
+    background-color: var(--color1);
+    text-align: center;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 0;
+    height: 30px;
+    padding-top: 8px;
+}
+h2{
+    margin-right: 20px;
+    color: white;
+}
+table{
+    color: white;
+    border: solid var(--color3);
+    align-items: center;
+    margin: auto;/*margen de la tabla*/
+    border-collapse: collapse;/*colapsa los bordes de la tabla*/
+    margin-top: 20px;
+    
+}
+th{
+    border: solid 1px var(--color3);
+    height: 40px;
+    background-color: var(--color1);
+}
+td{ 
+    border: solid 1px var(--color3) ;
+    padding-left: 5px;
+}
+#imglibros{
+    padding: 5px;
+}
+.personajesP{
+    border: solid 1px var(--color3); 
+    padding: 10px;
+    margin: 10px;
+}
+
+#contenedor{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+#pers{
+      margin: 0;
+}
+#pers1{
+    margin: 0;
+}
+#pers2{
+    margin: 0;
+}
+.divlasaga{
+    background-color: white;
+    width: 800px;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+}
+.imglibro{
+    margin: 5px;
+}
+.textolibro{
+    margin: 5px;
+}
+section{
+    margin-bottom: 50px;
+}
+.contacto{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color1);
+    width: 600px;
+    height: 350px;
+    margin: auto;
+    padding-left: 10px;
+}
+.sesion{
+    color: var(--color2);
+    padding-top: 10px;
+    margin: auto;
+    font-size: 40px;
+}
+.formulario{
+    color: var(--color3);
+    font-size: 20px;
+}
+input{
+    height: 40px;
+    border-radius: 10px;
+    width: 580px;
+    border: none; /*si no se poone esto, pone un borde por defecto*/
+}
+input[type="submit"] {
+    width: 580px; /* Cambia el ancho */
+    height: 40px; /* Cambia el alto */
+    margin-bottom: 20px;
+    background-color: var(--colorboton);
+    color: var(--color3);
+  }
+input[type="text"] {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+input[type="password"] {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+.form{
+    margin-top: 20px;
+}
+.form2{
+    margin-top: 10px;
+}
+
+iframe{
+    width: 100%;
+}

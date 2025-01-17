@@ -1,0 +1,24 @@
+programmingLanguages{
+    display: flex;
+}
+lenguage{
+    display: inline;
+}
+description{
+    display: block;
+    color: red;
+    border: solid #b6f4b6 1px;
+    margin: 3px;
+    margin-bottom: 5px;
+}
+example{
+    display: block; /* Permite que el texto ocupe varias líneas */
+    background-color:#D3D3D3;
+    font-family: monospace; /*  fuente para simular código */
+    white-space: pre-wrap; /* Se adapata al texto del cdata*/
+    margin: 3px;/* MArgen exterior*/
+}
+/*example ::after { 
+    content: ' \A'; para salto de linea
+    white-space: pre; 
+} */
