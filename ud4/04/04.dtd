@@ -15,7 +15,7 @@
 <!ELEMENT subdirector (#PCDATA)>
 
 <!ELEMENT asignaturas (asignatura)+>
-<!ELEMENT asignatura (nombre, creditos_teoricos, creditos_praticos, trimestre)>
+<!ELEMENT asignatura (nombre, creditos_teoricos, creditos_practicos, trimestre)>
 <!ATTLIST asignatura id ID #REQUIRED>
 <!ATTLIST asignatura titulacion IDREF #REQUIRED><!-- clave ajena de carrera-->
 <!ELEMENT creditos_teoricos (#PCDATA)>
@@ -30,7 +30,7 @@
 <!ELEMENT apellido2 (#PCDATA)>
 <!ELEMENT sexo (#PCDATA)>
 <!ELEMENT estudios (carrera, asignaturas, proyecto?)+>
-<!ATTLIST carrera EMPTY>
+<!ATTLIST carrera EMPTY >
 <!ATTLIST carrera codigo IDREF #REQUIRED>
 <!ATTLIST asignatura codigo IDREF #IMPLIED>
 

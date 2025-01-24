@@ -5,3 +5,4 @@
 <!ELEMENT example (#PCDATA)>
 <!ATTLIST programmingLanguages xmlns:xsi CDATA #IMPLIED>
 <!ATTLIST xsi:noNamespaceSchemaLocation  xmlns:xsi CDATA #IMPLIED>
+<!ATTLIST programmingLanguages xmlns:xsi CDATA #IMPLIED xsi:noNamespaceSchemaLocation CDATA #IMPLIED>
