@@ -3,11 +3,27 @@
 	"tasks": [
 		{
 			"type": "xslt",
-			"label": "xslt: Saxon Transform (New)",
+			"label": "universidad",
 			"saxonJar": "${config:XSLT.tasks.saxonJar}",
 			"xsltFile": "${command:xslt-xpath.pickXsltFile}",
-			"xmlSource": "${command:xslt-xpath.pickXmlSourceFile}",
+			"xmlSource": "${workspaceFolder}/ud5/02/input/alumnos.xml",
 			"resultPath": "${workspaceFolder}/ud5/02/target/index.html",
+			"allowSyntaxExtensions40": "off",
+			"messageEscaping": "adaptive",
+			"group": {
+				"kind": "build"
+			},
+			"problemMatcher": [
+				"$saxon-xslt"
+			]
+		},
+		{
+			"type": "xslt",
+			"label": "Tickets",
+			"saxonJar": "${config:XSLT.tasks.saxonJar}",
+			"xsltFile": "${command:xslt-xpath.pickXsltFile}",
+			"xmlSource": "${workspaceFolder}/ud5/03/input/03.xml",
+			"resultPath": "${workspaceFolder}/ud5/03/target/index.html",
 			"allowSyntaxExtensions40": "off",
 			"messageEscaping": "adaptive",
 			"group": {

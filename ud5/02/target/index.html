@@ -2,22 +2,36 @@
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
       <meta charset="utf-8">
-      <title>01-2 XSLT - Informacion de alumnos </title>
+      <title>01-3 XSLT  Información de alumnos</title>
+      <style>
+                    table{ width:100%; border-collapse:collapse;}
+                    th {background-color: grey; color:#fff;}
+                    td {color:grey;}
+                    th,tr,td{border:2px solid grey; padding:2px;}
+                    li{padding:2px;}
+                </style>
    </head>
    <body>
-      <p>Francisco Rodríguez</p>
-      <p>Poblacion: Benavente</p>
-      <p>49600</p>
-      <p>Poblacion: Morales del Rey</p>
-      <p>49693</p>
-      <hr>
-      <p>María Pérez</p>
-      <p>Poblacion: Valladolid</p>
-      <p>47010</p>
-      <p>Poblacion: Santa Croya de Tera</p>
-      <p>49626</p>
-      <p>Poblacion: Noja</p>
-      <p>39180</p>
-      <hr>
+      <h1>Trabajando con el atributo mode</h1>
+      <h2>Información de todos los alumnos</h2>
+      <table>
+         <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+         </tr>
+         <tr>
+            <td>Francisco</td>
+            <td>Rodríguez</td>
+         </tr>
+         <tr>
+            <td>María</td>
+            <td>Pérez</td>
+         </tr>
+      </table>
+      <h2>Lista de alumnos</h2>
+      <ul>
+         <li>Francisco Rodríguez</li>
+         <li>María Pérez</li>
+      </ul>
    </body>
 </html>
