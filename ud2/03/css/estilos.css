@@ -41,7 +41,7 @@ fieldset {
     /* borde del fieldset */
     width: 600px;
 }
- body {
+body {
     background-image: url('../images/fondo120.png');
     background-size: cover;
     /* Ajusta la imagen para cubrir toda la pantalla */

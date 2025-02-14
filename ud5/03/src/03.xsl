@@ -11,6 +11,7 @@
         <head>
             <title>3 XSLT Tickets Véronique Grué.</title>
             <meta charset="UTF-8"/>
+            <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
         </head>
         <body>
         <header>
