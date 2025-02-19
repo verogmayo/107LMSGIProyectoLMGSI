@@ -54,6 +54,37 @@
                     "value": "no"
                 }
             ]
+		},
+		{
+			"type": "xslt",
+			"label": "Años",
+			"saxonJar": "${config:XSLT.tasks.saxonJar}",
+			"xsltFile": "${workspaceFolder}/ud5/05/src/05.xsl",
+			"xmlSource": "${workspaceFolder}/ud5/05/input/05.xml",
+			"resultPath": "${workspaceFolder}/ud5/05/target/index.xml",
+			"allowSyntaxExtensions40": "off",
+			"messageEscaping": "adaptive",
+			"group": {
+				"kind": "build"
+			},
+			"problemMatcher": [
+				"$saxon-xslt"
+			]
+		},{
+			"type": "xslt",
+			"label": "Network",
+			"saxonJar": "${config:XSLT.tasks.saxonJar}",
+			"xsltFile": "${workspaceFolder}/ud5/06/src/06.xsl",
+			"xmlSource": "${workspaceFolder}/ud5/06/input/06.xml",
+			"resultPath": "${workspaceFolder}/ud5/06/target/index.txt",
+			"allowSyntaxExtensions40": "off",
+			"messageEscaping": "adaptive",
+			"group": {
+				"kind": "build"
+			},
+			"problemMatcher": [
+				"$saxon-xslt"
+			]
 		}
 		
 	]
