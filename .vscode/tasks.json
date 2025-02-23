@@ -106,7 +106,7 @@
 			"saxonJar": "${config:XSLT.tasks.saxonJar}",
 			"xsltFile": "${workspaceFolder}/ud5/07/src/07.xsl",
 			"xmlSource": "${workspaceFolder}/ud5/07/input/prediccion.xml",
-			"resultPath": "${workspaceFolder}/ud5/07/target/index.xml",
+			"resultPath": "${workspaceFolder}/ud5/07/target/index.html",
 			"allowSyntaxExtensions40": "off",
 			"messageEscaping": "adaptive",
 			"group": {

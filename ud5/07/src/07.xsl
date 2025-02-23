@@ -3,14 +3,110 @@
                 xmlns:xs="http://www.w3.org/2001/XMLSchema"
                 expand-text="yes"
                 version="3.0">
-    <xsl:output method="xml" indent="yes"/>
-    <xsl:mode on-no-match="shallow-copy"/>
-    <xsl:template match="/prediccion" mode="#all">
-      <!-- Autor.- Véronique Grué -->
-        <!-- Fecha.- Viernes 21 de febrero de 2025 -->
-        <!-- Descripción.-Predicciíon -->
-        <xsl:copy>
-            <xsl:apply-templates select="@*, node()" mode="#current"/>
-        </xsl:copy>
-    </xsl:template>
+  <xsl:output method="xml" indent="yes"/>
+  <xsl:mode on-no-match="shallow-copy"/>
+  <xsl:template match="/prediccion" mode="#all">
+    <!-- Autor.- Véronique Grué -->
+    <!-- Fecha.- Viernes 21 de febrero de 2025 -->
+    <!-- Descripción.-Predicciíon -->
+    <html>
+      <head>
+        <title>7 XSLT - Véronique Grué</title>
+        <meta charset="UTF-8"/>
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+   
+      </head>
+      <body>
+        <header>
+          <h1>Predicción por municipios</h1>                    
+        </header>
+        <main>
+          <table>
+            <caption> EL TIEMPO. <xsl:value-of select="upper-case(municipio/nombre),' '"/>(<xsl:value-of select="upper-case(municipio/provincia)"/>)</caption>
+            <thead>
+              <tr>
+                <th> Dia</th>
+                <th>Prob. precip.</th>
+                <th>Estado del cielo</th>
+                <th>Temperatura (ºC)</th>
+                <th>Viento (Km/h)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <xsl:for-each select="dia">
+                <tr>
+                  <!-- substring-after para recuperar solo el día -->
+                  <td><xsl:value-of select="substring-after(substring-after(@fecha, '-'), '-')" /></td>
+                  <td><xsl:value-of select="prob_precipitacion,'%'"/></td>
+                  <td>
+                    <xsl:choose>
+                      <xsl:when test="estado_cielo= 11">
+                        <img src="11.gif" alt="{estado_cielo/@descripcion}" title="{estado_cielo/@descripcion}"/>
+                      </xsl:when>
+                      <xsl:when test="estado_cielo= 12">
+                        <img src="12.gif" alt="{estado_cielo/@descripcion}" title="{estado_cielo/@descripcion}"/>
+                      </xsl:when>
+                      <xsl:when test="estado_cielo = 13">
+                        <img src="13.gif" alt="{estado_cielo/@descripcion}" title="{estado_cielo/@descripcion}"/>
+                      </xsl:when>
+                      <xsl:when test="estado_cielo = 14">
+                        <img src="14.gif" alt="{estado_cielo/@descripcion}" title="{estado_cielo/@descripcion}"/>
+                      </xsl:when>
+                      <xsl:when test="estado_cielo = 15">
+                        <img src="15.gif" alt="{estado_cielo/@descripcion}" title="{estado_cielo/@descripcion}"/>
+                      </xsl:when>
+                      <xsl:when test="estado_cielo = 16">
+                        <img src="16.gif" alt="{estado_cielo/@descripcion}" title="{estado_cielo/@descripcion}"/>
+                      </xsl:when>
+                    </xsl:choose>
+                  </td>
+                  <td> <span class="minima">
+                      <xsl:value-of select="temperatura/minima"/>
+                    </span>
+                    /
+                    <span class="maxima">
+                      <xsl:value-of select="temperatura/maxima"/>
+                    </span></td>
+                  <td>
+                    <xsl:choose>
+                      <xsl:when test="viento/direccion= 'Oeste'">
+                        <img src="Oeste.gif" alt="{viento/direccion}" title="{viento/direccion}"/>
+                      </xsl:when>
+                      <xsl:when test="viento/direccion= 'Nordeste'">
+                        <img src="Nordeste.gif" alt="{viento/direccion}" title="{viento/direccion}"/>
+                      </xsl:when>
+                      <xsl:when test="viento/direccion = 'Norte'">
+                        <img src="Norte.gif" alt="{viento/direccion}" title="{viento/direccion}"/>
+                      </xsl:when>
+                      <xsl:when test="viento/direccion = 'Oeste'">
+                        <img src="Oeste.gif" alt="{viento/direccion}" title="{viento/direccion}"/>
+                      </xsl:when>
+                      <xsl:when test="viento/direccion = 'Sudeste'">
+                        <img src="Sudeste.gif" alt="{viento/direccion}" title="{viento/direccion}"/>
+                      </xsl:when>
+                      <xsl:when test="viento/direccion ='Sudoeste'">
+                        <img src="Sudoeste.gif" alt="{viento/direccion}" title="{viento/direccion}"/>
+                      </xsl:when>
+                      <xsl:when test="viento/direccion ='Calma'">
+                        <img src="Calma.gif" alt="{viento/direccion}" title="{viento/direccion}"/>
+                      </xsl:when>
+                      <xsl:when test="viento/direccion ='Sur'">
+                        <img src="Sur.gif" alt="{viento/direccion}" title="{viento/direccion}"/>
+                      </xsl:when>
+                      <xsl:when test="viento/direccion ='Este'">
+                        <img src="Este.gif" alt="{viento/direccion}" title="{viento/direccion}"/>
+                      </xsl:when>
+                    </xsl:choose>
+                    <xsl:value-of select="viento/velocidad"/>
+                  </td>
+                </tr>
+              </xsl:for-each>
+            </tbody>
+          </table>
+        </main>
+      </body>
+      
+    </html>
+    
+  </xsl:template>
 </xsl:stylesheet>
