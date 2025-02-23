@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="../src/05.xsl"?>
-<root>
+<root xmlns:xs="http://www.w3.org/2001/XMLSchema">
    <row>
       <anyo>2012</anyo>
       <concepto>Usuarios registrados </concepto>
