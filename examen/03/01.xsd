@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<!-- Crear el tipo benefcio-->
+    <xs:simpleType name="TipoBeneficio">
+        <xs:restriction base="xs:decimal">
+            <xs:fractionDigits value="2"/>
+        </xs:restriction>
+    </xs:simpleType>
+
     <xs:element name="productosfinancieros">
         <xs:complexType>
             <xs:sequence>
                 <xs:element name="producto" maxOccurs="unbounded">
+                <!-- SE pondría min si es 0-->
                     <xs:complexType>
-                        <xs:sequence>
+                    <!-- Si hay choice, no puede haber sequence... -->
                             <xs:choice>
                                 <!-- Se utiliza el choice para decir que tiene que ser uno de estos 3 -->
                                 <xs:element name="bono">
@@ -29,7 +37,7 @@
                                                     </xs:simpleContent>
                                                 </xs:complexType>
                                             </xs:element>
-                                            <xs:element name="beneficio" type="xs:decimal"/>
+                                            <xs:element name="beneficio" type="TipoBeneficio"/>
                                         </xs:sequence>
                                     </xs:complexType>
                                 </xs:element>
@@ -47,7 +55,7 @@
                                                     </xs:simpleContent>
                                                 </xs:complexType>
                                             </xs:element>
-                                            <xs:element name="beneficio" type="xs:decimal"/>
+                                            <xs:element name="beneficio" type="TipoBeneficio"/>
                                         </xs:sequence>
                                     </xs:complexType>
                                 </xs:element>
@@ -72,12 +80,11 @@
                                                     </xs:simpleContent>
                                                 </xs:complexType>
                                             </xs:element>
-                                            <xs:element name="beneficio" type="xs:decimal"/>
+                                            <xs:element name="beneficio" type="TipoBeneficio"/>
                                         </xs:sequence>
                                     </xs:complexType>
                                 </xs:element>
                             </xs:choice>
-                        </xs:sequence>
                     </xs:complexType>
                 </xs:element>
             </xs:sequence>

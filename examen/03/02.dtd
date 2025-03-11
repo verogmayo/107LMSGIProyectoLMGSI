@@ -10,13 +10,13 @@ de ser XX1111 (2 letras mayusculas y cuatro digitos) -->
 <!ELEMENT localizacion (#PCDATA) >
 <!ELEMENT ordenador (procesador?, memoria?, discoduro)>
 <!ELEMENT procesador (#PCDATA)>
-<!ATTLIST procesador fabricante CDATA "Intel">
+<!ATTLIST procesador fabricante (Intel | AMD) "Intel">
 <!-- IMPLIED: no requerido - REQUIRED : REQUERIDO - 
 FIXED:el valor no puede cambiar. Si solo se pone 
 un dato entre comillas será el dato por defecto 
 y el atributo será opcional-->
 <!ATTLIST element-name attribute-name ID #REQUIRED>
 <!ELEMENT memoria (#PCDATA)>
-<!ATTLIST memoria unidad CDATA #FIXED "Gb">
+<!ATTLIST memoria unidad CDATA  #FIXED "Gb">
 <!ELEMENT discoduro (#PCDATA)>
-<!ATTLIST discoduro tamano CDATA #REQUIRED>
+<!ATTLIST discoduro tamano (Tb | Gb | Mb) "Gb">
