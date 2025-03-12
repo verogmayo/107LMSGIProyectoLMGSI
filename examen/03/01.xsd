@@ -69,10 +69,11 @@
                                                             <xs:attribute name="pais" use="required">
                                                                 <xs:simpleType>
                                                                     <xs:restriction base="xs:string">
-                                                                        <xs:enumeration value="usa"/>
+                                                                        <!-- <xs:enumeration value="usa"/>
                                                                         <xs:enumeration value="alemania"/>
                                                                         <xs:enumeration value="japon"/>
-                                                                        <xs:enumeration value="espana"/>
+                                                                        <xs:enumeration value="espana"/> -->
+                                                                        <xs:pattern value="usa|alemania|japon|espana"/>
                                                                     </xs:restriction>
                                                                 </xs:simpleType>
                                                             </xs:attribute>

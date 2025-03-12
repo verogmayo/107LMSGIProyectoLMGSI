@@ -15,7 +15,6 @@ de ser XX1111 (2 letras mayusculas y cuatro digitos) -->
 FIXED:el valor no puede cambiar. Si solo se pone 
 un dato entre comillas será el dato por defecto 
 y el atributo será opcional-->
-<!ATTLIST element-name attribute-name ID #REQUIRED>
 <!ELEMENT memoria (#PCDATA)>
 <!ATTLIST memoria unidad CDATA  #FIXED "Gb">
 <!ELEMENT discoduro (#PCDATA)>
