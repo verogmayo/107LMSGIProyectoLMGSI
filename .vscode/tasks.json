@@ -115,6 +115,36 @@
 			"problemMatcher": [
 				"$saxon-xslt"
 			]
+		},{
+			"type": "xslt",
+			"label": "JoaquinSabinaXml",
+			"saxonJar": "${config:XSLT.tasks.saxonJar}",
+			"xsltFile": "${workspaceFolder}/examen/Ex2Ev-02/src/FmAXml.xsl",
+			"xmlSource": "${workspaceFolder}/examen/Ex2Ev-02/input/JoaquinSabina.xml",
+			"resultPath": "${workspaceFolder}/examen/Ex2Ev-02/target/JoaquinSabina.xml",
+			"allowSyntaxExtensions40": "off",
+			"messageEscaping": "adaptive",
+			"group": {
+				"kind": "build"
+			},
+			"problemMatcher": [
+				"$saxon-xslt"
+			]
+		},{
+			"type": "xslt",
+			"label": "JoaquinSabinaHtml",
+			"saxonJar": "${config:XSLT.tasks.saxonJar}",
+			"xsltFile": "${workspaceFolder}/examen/Ex2Ev-02/src/FmAWeb.xsl",
+			"xmlSource": "${workspaceFolder}/examen/Ex2Ev-02/input/JoaquinSabina.xml",
+			"resultPath": "${workspaceFolder}/examen/Ex2Ev-02/target/JoaquinSabina.html",
+			"allowSyntaxExtensions40": "off",
+			"messageEscaping": "adaptive",
+			"group": {
+				"kind": "build"
+			},
+			"problemMatcher": [
+				"$saxon-xslt"
+			]
 		}
 		
 	]

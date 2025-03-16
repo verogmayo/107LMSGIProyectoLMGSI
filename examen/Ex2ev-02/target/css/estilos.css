@@ -1,0 +1,45 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+body{
+
+    width: 1024px;
+   
+}
+h1{
+    color: red;
+    text-align: center;
+    background-color: black;
+    padding: 5px;
+
+}
+h2{
+margin-top: 20px;
+margin-bottom: 20px;
+
+}
+h3{
+    margin-bottom: 20px;
+}
+#cajaPrincipal{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.cajaAlbum{
+    display: flex;
+    border: solid blue 1px;
+    margin-left: 0;
+    margin-bottom: 20px;
+    margin-right: 20px;
+  
+    height: 200px;
+    width: 45%; /* Reduce el ancho para que no ocupe todo el espacio */
+    max-width: 450px; /* Evita que se agranden demasiado */
+    padding: 10px;
+}
+p{
+margin: 20px;
+width: 200px;
+}
