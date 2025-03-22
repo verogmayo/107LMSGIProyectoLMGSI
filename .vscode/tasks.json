@@ -145,6 +145,21 @@
 			"problemMatcher": [
 				"$saxon-xslt"
 			]
+		},{
+			"type": "xslt",
+			"label": "PedidoHtml",
+			"saxonJar": "${config:XSLT.tasks.saxonJar}",
+			"xsltFile": "${workspaceFolder}/examen/03/src/pedido.xsl",
+			"xmlSource": "${workspaceFolder}/examen/03/input/pedido.xml",
+			"resultPath": "${workspaceFolder}/examen/03/target/pedido.html",
+			"allowSyntaxExtensions40": "off",
+			"messageEscaping": "adaptive",
+			"group": {
+				"kind": "build"
+			},
+			"problemMatcher": [
+				"$saxon-xslt"
+			]
 		}
 		
 	]

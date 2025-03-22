@@ -24,7 +24,8 @@ h3{
 }
 #cajaPrincipal{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap;/* para que los elementos esten en la misma linea. En este caso se ha puesto un 
+    width de 45 %(porque no tenían que ocupar toda la linea) para que entre 2 div en la linea */
     
 }
 .cajaAlbum{
