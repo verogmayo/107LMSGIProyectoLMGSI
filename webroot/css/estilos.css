@@ -9,6 +9,7 @@
 }
 html, body{
     height: 100%;/* Para que ocupe todo el espacio y el footer esté pegado al borde inferior*/
+  
 }
 body{
     background-color: var(--verdeBalu);
