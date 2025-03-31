@@ -44,7 +44,7 @@ parrafo[2].style.color="#3498db";
 parrafo[2].style.backgroundColor="#e6f2ff";
 parrafo[2].style.borderColor="#2980b9";
 
-piePagina.style.backgroundColor="black"
+piePagina.style.backgroundColor="#222222"
 piePagina.style.padding="5px"
 pPie.style.color="white"
 nombre.style.color="grey"
