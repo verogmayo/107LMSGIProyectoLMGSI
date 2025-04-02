@@ -50,26 +50,3 @@ pPie.style.color="white"
 nombre.style.color="grey"
 nombre.style.textDecoration="none"
 boton.style.margin="10px";
-
-
-
-function saludar() {
-    alert("Hola, buenos días!!!");
-  }
-
-function cambiarColor(){
-    cuerpo.style.backgroundColor="black";
-    titulo.style.color="white";
-    titulo.style.backgroundColor="black";
-}
-
-function cambiarParrafos(){
-    for (var i = 0; i < parrafo.length; i++) {
-        parrafo[i].style.fontSize="20px";
-        parrafo[i].style.letterSpacing="2px";
-        parrafo[i].style.rotate="1deg";
-        parrafo[i].style.fontWeight="bold";
-    }
-    
-}
-
