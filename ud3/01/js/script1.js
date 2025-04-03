@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
     let ModoOscuro = false;
     let ParrafosModificados = false;
 
-    // Elementos del DOM (usando const para evitar conflictos, porque sino funciona)
+    // Elementos del DOM (usando const para evitar conflictos, porque sino no me funciona)
     const titulo = document.getElementById("titulo");
     const parrafos = document.getElementsByClassName("parrafo");
     const cuerpo = document.getElementById("cuerpo");
