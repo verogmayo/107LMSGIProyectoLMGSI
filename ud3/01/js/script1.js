@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const titulo = document.getElementById("titulo");
     const parrafos = document.getElementsByClassName("parrafo");
     const cuerpo = document.getElementById("cuerpo");
-
+    let boton3=this.document.getElementById("boton3")
     
     function saludar() {
         alert("Hola, buenos días!!!");
@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
         ModoOscuro = !ModoOscuro; 
     }
-
+    // 
     function cambiarParrafos() {
         Array.from(parrafos).forEach(parrafo => {
             if (!ParrafosModificados) {

@@ -29,3 +29,7 @@ footer{
     padding: 10px 0; /* Opcional: para darle un poco de espacio dentro del footer */
     text-align: center; /* Opcional: para centrar el texto del footer */
 }
+.estiloModificado{
+    background-color: black;
+    
+}
