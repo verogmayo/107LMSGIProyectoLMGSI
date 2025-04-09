@@ -39,11 +39,11 @@
                                                 <xsl:attribute name="name" select="concat('p', ../../@id)"/>
                                                 <xsl:attribute name="value" select="position()"/>
                                                 <xsl:if test="$corregido='yes' and @correcta='correcta'">
-                                                    <xsl:attribute name="checked">checked</xsl:attribute>
+                                                    <xsl:attribute name="checked"/>
                                                 </xsl:if>
                                                 <!-- Todos los radios estarán deshabilitados -->
                                                 <xsl:if test="$corregido='yes'">
-                                                    <xsl:attribute name="disabled">disabled</xsl:attribute>
+                                                    <xsl:attribute name="disabled"/>
                                                 </xsl:if>
                                             </xsl:element>
                                             <xsl:value-of select="./text()"/>
@@ -67,6 +67,7 @@
                          </div>-->
                     <xsl:if test="$corregido='no'">
                         <div class="botones">
+                        <!-- si se pone fuera de form, hay que poner un id con un nombre en el form y el mismo nombre en form en el input -->
                             <input type="submit" value="Enviar formulario" form="preguntasf"/>
                             <input type="reset" value="Borrar formulario"/>
                         </div>

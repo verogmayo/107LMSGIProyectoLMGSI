@@ -10,32 +10,36 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;/* Para que ocupe todo el espacio y el footer esté pegado al borde inferior*/
 }
 h1{
     text-align: center; /*fuente y tamaño de la letra*/
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
-    margin: 50px;
+    font-family: var(--fuenteBalu); 
+    font-size: 60px;
+    margin: 60px;
+    color: var(--verdeBordeBalu);
 }
 h3{
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    font-family: var(--fuentePagina); 
 }
 h2{
     margin-bottom: 20px;/*Margen inferior*/
+    font-family: var(--fuentePagina);
+    color: var(--verdeBordeBalu);
 }
 body {
-    background-image: url('../images/fondo120.png');
-    background-size: cover;
-    /* Ajusta la imagen para cubrir toda la pantalla */
-    background-repeat: no-repeat;
-    /* Evita que la imagen se repita */
-    background-position: center;
-    /* Centra la imagen */
+    display: flex;
+    flex-direction: column;
+    background-color: #FD807E;
     margin: 25px;
 }
 p{
     font-size: 18px; /*fuente y tamaño de la letra*/
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: var(--fuentePagina);
 }
 div{
     width: 100%; /*ancho del div*/
@@ -68,14 +72,14 @@ div>div:nth-child(2){/*Selecciona el segundo hijo div*/
     object-position: center center;/*centra el video*/
 }
 footer{
-    margin-top: 50px;
+    margin-top: auto;
    justify-content: center;
    text-align: center;
    color: black;
    background-color: var(--grisBalu);
-   bottom: 0;
-   margin-bottom: 0;
+   padding: 10px 0;
    font-family: 'Handlee';
+
 }
 footer p{
     font-family: var(--fuentePagina);

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<productosfinancieros xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="01.xsd">
+    <producto>
+        <bono>
+            <valoractual moneda="yenes">2.212</valoractual>
+            <beneficio>-2.83</beneficio>
+        </bono>
+    </producto>
+    <producto>
+        <futuro>
+            <elemento idioma="espanol">Petroleo</elemento>
+            <beneficio>-3.83</beneficio>
+        </futuro>
+    </producto>
+    <producto>
+        <acciones>
+            <empresa pais="usa">ENRON</empresa>
+            <beneficio>2.91</beneficio>
+        </acciones>
+        
+    </producto>
+</productosfinancieros>
+
+<!-- PREGUNTA 1. Se pide crear un esquema(01.xsd) para validar 
+archivos XML, por ejemplo 01.xml, teniendo en cuenta las siguientes reglas: 
+El elemento raíz es productosfinancieros. Dentro de él puede haber uno o 
+más elementos producto. 
+Un producto puede ser de tres tipos: bono, futuro y acciones. 
+
+Todos los productos tienen siempre un elemento hijo llamado 
+beneficiario que puede ser un número de dos decimales (positivo o negativo). 
+
+Todo bono puede tener dentro un elemento llamado valoractual 
+que contiene un valor decimal que puede ser positivo o negativo
+y tener o no decimales. El elemento valoractual deberá llevar 
+dentro un atributo llamado moneda que solo puede tomar los valores 
+dolares, euros o yenes. 
+
+Todo futuro tiene un hijo llamado elemento que puede contener 
+dentro cadenas de cualquier tipo. Para saber en qué idioma está 
+la cadena se usa el atributo llamado idioma que indica el idioma 
+en que esta escrito la cadena. 
+
+Las acciones siempre tienen un elemento empresa que indica el
+nombre de la empresa y un atributo llamado país que indica de 
+donde es la empresa. De momento queremos limitarnos a los países: 
+usa, alemania, japon y espana. 
+
+Recuérdese que siempre que no nos digan nada, se supone que un 
+elemento o atributo es obligatorio. Si algo es optativo nos 
+dirán «puede tener dentro», «puede contener», «puede aparecer», etc… -->
