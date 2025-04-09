@@ -22,7 +22,7 @@ margin: 1%;
 padding-left: 1.5%;
 font-weight: bold;
 outline: none;/*así no aparece el borde negro 
-al hacer clic para cambiar el numero*/ 
+al hacer clic para cambiar el número*/ 
 }
 input[type =button]{
     border: solid  rgb(140,203,245) ;
