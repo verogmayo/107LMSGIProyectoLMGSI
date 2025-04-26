@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Ejemplo 8 DOM</title>
+      <link rel="stylesheet" href="css/estilos.css" />
+    </head>
+  <body>
+    <h1>Ejemplo 8 DOM: Crear tabla</h1>
+    <label for="filas">Número de filas:</label>
+    <input type="number" id="filas" min="1" max="10" value="2">  
+    <label for="numerocolumnas">Número de columnas:</label>
+    <div>
+      <input type="number" id="numerocolumnas"  min="1" max="10" value="2">
+    <input type="button" value="Genera una tabla" onclick="genera_tabla()" />
+    </div>
+    
+  </body>
+  <script>
+    function genera_tabla(){
+    let body=document.getElementsByTagName("body")[0];
+    // se crea un elemento table y un elemento tbody.
+    let tabla=document.createElement("table");
+    let tbody=document.createElement("tbody");
+    let columnas=document.getElementById("numerocolumnas");
+    let filas=document.getElementById("filas");
+    //es mejor utilizar let
+    body.innerHTML= '<h1>Ejemplo 8 DOM: Crear tabla</h1> <label for="filas">Número de filas:</label> <input type="number" id="filas" min="1" max="10" value="2"> <label for="numerocolumnas">Número de columnas:</label> <div> <input type="number" id="numerocolumnas"  min="1" max="10" value="2"> <input type="button" value="Genera una tabla" onclick="genera_tabla()" /></div>'
+
+
+    tabla.style.tableLayout="fixed";
+    tabla.style.borderCollapse="collapse";
+    tabla.style.width = "60%"; 
+    
+    //se crea las celdas
+    for (let i = 0; i < filas.value; i++) {
+      let hilera=document.createElement("tr");
+      for(let j=0;j<columnas.value;j++){
+        let celda=document.createElement("td");
+        let texto=document.createTextNode("Fila"+(i+1)+" ,colmuna"+(j+1));
+        hilera.appendChild(celda);
+        celda.appendChild(texto);
+        celda.style.border= "2px solid rgb(70,158,211) ";
+        celda.style.width = "50px";
+        celda.style.height = "40px";  // Altura de las celdas
+        celda.style.textAlign = "center";
+
+      }  
+      tbody.appendChild(hilera);
+    }
+    tabla.appendChild(tbody);
+    body.appendChild(tabla);
+    tabla.setAttribute("border","2");
+  }
+  </script>
+  </html>
