@@ -34,14 +34,23 @@ fetch('ciclistas.json')
 
   //Fetch para  fichero.xml - Carrera a pie
   fetch('pie.xml')
-  .then(res => res.text())
+  // Cuando llega la respuesta del servidor, se ejecuta esta función ->Si la respuesta es OK 
+  .then(response => {if (!response.ok) throw new Error('Error al cargar el archivo');
+    
+    // Se convierte la respuesta a formato xml
+    return response.text();})
   .then(texto => {
+    //Se crea una instancia de DOMParser, que permite convertir una cadena de texto en un documento DOM
     const parser = new DOMParser();
+    //Se convierte el texto plano en un documento XML que ya puede ser recorrido como si fuera HTML.
     const xml = parser.parseFromString(texto, "application/xml");
 
+    //Se selecciona todos los nodos <persona> del XML.
     const corredores = xml.querySelectorAll("persona");
+    //Contenedor donde se va a insertar en el html
     const contenedor = document.getElementById('contenidoXml');
 
+    //Se recorre cada elemento persona para obtener la información y se añade += a cada bucle en un parafo
     corredores.forEach(corredor => {
       const nombre = corredor.querySelector("nombre").textContent;
       const edad = corredor.querySelector("edad").textContent;
@@ -51,6 +60,7 @@ fetch('ciclistas.json')
     </p>`;
     });
   })
+  //Si ocurre algún error (por ejemplo, el archivo pie.xml no existe), lo muestra en la consola del navegador.
   .catch(err => console.error('Error con XML:', err));
 
   
