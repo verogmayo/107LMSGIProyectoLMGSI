@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../src/07.xsl"?>
+<?xml-stylesheet type="text/xsl" href="../src/06.xsl"?>
 <network>
     <ethernets>
         <name>enp0s3</name>

@@ -47,13 +47,13 @@
   
         for (let j = 0; j < 3; j++) { // 3 casillas por fila
           const casilla = document.createElement("div");
-          casilla.classList.add("casilla");
+          casilla.classList.add("casilla");//añade class a la casilla.
 
 
 
               // Texto del hover
       const textoHover = document.createElement("p");
-      textoHover.classList.add("texto-hover");
+      //textoHover.classList.add("texto-hover") - Para añadir class al p del hover pero al final he puesto el color en casilla:hover
       textoHover.textContent = "Haz clic para ver las imágenes "; 
       textoHover.style.display = "none"; // Oculto al principio
       casilla.appendChild(textoHover);
@@ -69,25 +69,22 @@
         textoHover.style.display = "none";
       });
 
-
-
-  
-          // Añadimos el evento cuando haces clic a cada casilla
+          // Evento cuando haces clic en cada casilla
           casilla.addEventListener("click", function() {
             if (!casilla.querySelector("img")) {
-              // Si no hay imagen, la añadimos
+              // Si no hay imagen, se añade
               const img = document.createElement("img");
               const numero = Math.floor(Math.random() * imagenes.length);
               img.src = `https://picsum.photos/200?random=${numero}`;
-              img.classList.add("imagen");
+              img.classList.add("imagen");//añade la clase imagen al crear la imagen
               casilla.appendChild(img);
 
 
-              textoHover.style.display = "none"; // Al hacer clic se esconde el texto
+              textoHover.style.display = "none"; // Al hacer clic desapareceel texto
 
 
             } else {
-              // Si ya hay imagen, la cambiamos
+              // Si ya hay imagen, se cambia
               const numero = Math.floor(Math.random() * imagenes.length);
               casilla.querySelector("img").src = `https://picsum.photos/200?random=${numero}`;
             }
