@@ -1,0 +1,21 @@
+h1{
+    font-size: 45px;
+    margin-left: 40px;
+}
+#Cargar{
+    border: solid  rgb(7, 118, 192) ;
+    background-color: rgb(7, 118, 192);
+    height: 3em;
+    width: 12em;
+    color:white;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-left: 1%;
+    font-size: 25px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+li{
+font-size: 30px;
+margin-left: 80px;
+}

@@ -4,7 +4,7 @@
 fetch('01.json')
   // Cuando llega la respuesta del servidor, se ejecuta esta función
   .then(response => {
-    // Si la respuesta es OK (código HTTP 200-299)
+    // Si la respuesta es OK
     if (!response.ok) throw new Error('Error al cargar el archivo');
     
     // Se convierte la respuesta a formato JSON 
@@ -12,10 +12,10 @@ fetch('01.json')
   })
   // Cuando se ha convertido correctamente en objeto JSON...
   .then(datos => {
-    // Buscamos el elemento con id="contenido" en el HTML
+    // Buscamos el elemento con id="contenidoJson" en el HTML
     const contenedor = document.getElementById('contenidoJson');
     
-    // Mostramos los datos en el HTML, insertando el nombre y la edad
+    // Se muestran los datos en el HTML, insertando el nombre y la edad
     // Pongo un span y class para poder personalizar el texto.
     contenedor.innerHTML = `
     <p> 
