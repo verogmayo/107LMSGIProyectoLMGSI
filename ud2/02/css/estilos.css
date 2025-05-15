@@ -85,6 +85,7 @@ table{
 tr{
     height: 3em;/*alto de las lineas de la tabla*/
 }
+
 h3{
    color: var(--color2);/*color del texto de los h3*/
    font-family: 'Merriweather', serif;/*tipo de fuente de los h2*/
