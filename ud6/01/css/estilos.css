@@ -20,3 +20,17 @@ h1{
     padding: 10px;
     margin-left: 30px;
   }
+  footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%; /* Para que ocupe todo el ancho */
+    padding: 10px 0; /* Opcional: para darle un poco de espacio dentro del footer */
+    text-align: center; /* para centrar el texto del footer */
+    background-color: black ;
+    color:white;
+}
+a{
+    color: pink;
+    text-decoration: none;
+}
