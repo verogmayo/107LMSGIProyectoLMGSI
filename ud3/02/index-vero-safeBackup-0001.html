@@ -3,7 +3,7 @@
     <head>
       <meta charset="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Ud6.02-Ejemplo 8 DOM</title>
+      <title>Ejemplo 8 DOM</title>
       <link rel="stylesheet" href="css/estilos.css" />
     </head>
   <body>
@@ -29,7 +29,9 @@
     body.innerHTML= '<h1>Ejemplo 8 DOM: Crear tabla</h1> <label for="filas">Número de filas:</label> <input type="number" id="filas" min="1" max="10" value="2"> <label for="numerocolumnas">Número de columnas:</label> <div> <input type="number" id="numerocolumnas"  min="1" max="10" value="2"> <input type="button" value="Genera una tabla" onclick="genera_tabla()" /></div>'
 
 
-    
+    tabla.style.tableLayout="fixed";
+    tabla.style.borderCollapse="collapse";
+    tabla.style.width = "60%"; 
     
     //se crea las celdas
     for (let i = 0; i < filas.value; i++) {
@@ -39,7 +41,11 @@
         let texto=document.createTextNode("Fila"+(i+1)+" ,colmuna"+(j+1));
         hilera.appendChild(celda);
         celda.appendChild(texto);
-        
+        celda.style.border= "2px solid rgb(70,158,211) ";
+        celda.style.width = "50px";
+        celda.style.height = "40px";  // Altura de las celdas
+        celda.style.textAlign = "center";
+
       }  
       tbody.appendChild(hilera);
     }
@@ -48,5 +54,4 @@
     tabla.setAttribute("border","2");
   }
   </script>
-   <footer> <div>Todos los derechos reservados. Creado por:<a href="/index.html" target="_blank" id="nombre"> Véronique Grué</a> </div> </footer>
   </html>

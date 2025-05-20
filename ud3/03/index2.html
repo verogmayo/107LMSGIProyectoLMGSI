@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- UTF-8 es un conjunto de caracteres que incluye casi todos los caracteres de casi cualquier idioma -->
+    <meta charset="UTF-8">
+    <!--Controla el ancho de la pagina dependiendo del dispositivo en que se encuentre el usuario-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Titulo que aparece en la pestaña de la pagina web en el navegador-->
+    <title>Tablero con Imágenes(puzzle) - Véronique Grué</title>
+    <!--información sobre el autor del documento-->
+    <meta name="author" content="Véronique Grué">
+    <!-- descripción del contenido de la página-->
+    <meta name="descripción" content="Tablero con Imágenes">
+    <!--se usa para especificar una fecha relevante-->
+    <meta name="fecha" content="26-04-2025">
+    <!-- motores de búsqueda que deben indexar la página-->
+    <meta name="robots" content="index, follow">
+    <!-- Este es el que aparece en la pestaña de la pagina web del navegador-->
+    <link type="images/png" rel="icon" href="../../Webroot/media/favicon/favicon-96x96.png">
+    <link href="css/estilos2.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <h1> Juego de Tablero con Imágenes</h1> 
+    <h2>Intenta recrear la imagen.</h2>
+    <div class="tablero" id="tablero"> 
+        <!-- Las casillas se llenarán con JS --> </div> 
+        <a class="puzzle1" href="images/imagen1.jpg" target="_blank">Ver imagen 1</a>
+        <a class="volver" href="index.html" target="_blank">Volver a la pagina anterior</a>
+        <a class="puzzle2" href="images/imagen2.jpg" target="_blank">Ver imagen 2</a>
+    <footer> <div>Todos los derechos reservados. Creado por:<a href="/index.html" target="_blank"> Véronique Grué</a> </div> </footer>
+</body>
+<script>
+    const imagenes = [
+        "images/pieza1.jpg",
+        "images/pieza2.jpg",
+        "images/pieza3.jpg",
+        "images/pieza4.jpg",
+        "images/pieza5.jpg",
+        "images/pieza6.jpg",
+        "images/pieza7.jpg",
+        "images/pieza8.jpg",
+        "images/pieza9.jpg",
+        "images/pieza10.jpg",
+        "images/pieza11.jpg",
+        "images/pieza12.jpg"
+      ];
+  
+    function crearTablero() {
+      const tablero = document.getElementById("tablero");
+  
+      for (let i = 0; i < 2; i++) { // Se crean las 2 filascon div
+        const fila = document.createElement("div");
+        fila.classList.add("fila");
+  
+        for (let j = 0; j < 3; j++) { // se crean los 3 div por fila
+          const casilla = document.createElement("div");
+          casilla.classList.add("casilla");
+
+
+            
+              // Texto del hover
+      const textoHover = document.createElement("p");
+      
+      textoHover.textContent = "Haz clic para ver las piezas del puzzle";
+      textoHover.style.display = "none"; // Oculto inicialmente
+      casilla.appendChild(textoHover);
+
+      // Evento del hover(al pasar el raton por encima de la casilla)
+      casilla.addEventListener("mouseover", function() {
+        if (!casilla.querySelector("img")) { // Solo si no hay imagen
+          textoHover.style.display = "block";
+        }
+      });
+
+      casilla.addEventListener("mouseout", function() {
+        textoHover.style.display = "none";
+      });
+
+
+  
+          // Evento para que aparezca o cambie la imagen click en cada casilla
+          casilla.addEventListener("click", function() {
+            if (!casilla.querySelector("img")) {
+              // Si no hay imagen, se añade al hacer clic
+              const img = document.createElement("img");
+              const numero = Math.floor(Math.random() * imagenes.length);
+              img.src = imagenes[numero];
+              img.classList.add("imagen");
+              casilla.appendChild(img);
+
+
+              textoHover.style.display = "none"; // Al hacer clic se esconde el texto
+            } else {
+              // Si ya hay imagen, se cambia al hacer clic
+              const numero = Math.floor(Math.random() * imagenes.length);
+              casilla.querySelector("img").src = imagenes[numero];
+            }
+          });
+  
+          fila.appendChild(casilla);
+        }
+  
+        tablero.appendChild(fila);
+      }
+    }
+    window.onload = crearTablero;//para crear las casillas en cuanto se carge la pagina.
+  </script>
+</html>

@@ -1,0 +1,56 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+body{
+    width: 80%;
+
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    margin: 30px;
+    padding: 10px;
+    background-color: aquamarine;
+}
+h2{
+    font-size: 45px;
+    margin-left: 10px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: rgb(6, 122, 84);
+    text-decoration: underline;
+}
+.etiqueta {
+    font-weight: bold;
+    font-size: 25px;
+    margin-right: 10px; 
+     
+    
+  }
+  
+  .valor {
+    font-weight: normal;
+    font-size: 25px;
+    margin-right: 20px; 
+  }
+ 
+
+  p{
+   
+    padding: 10px;
+    margin-left: 30px;
+  }
+.caja{
+    display: flex;
+    
+    
+}
+.cajita{
+    border: solid 3px aquamarine;
+    border-radius: 20px;
+    background-color: rgb(182, 248, 226);
+    width: 50%;
+}
+

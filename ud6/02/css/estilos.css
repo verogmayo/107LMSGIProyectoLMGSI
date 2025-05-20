@@ -1,0 +1,35 @@
+h1{
+    font-size: 45px;
+    margin-left: 40px;
+}
+#Cargar{
+    border: solid  rgb(7, 118, 192) ;
+    background-color: rgb(7, 118, 192);
+    height: 3em;
+    width: 12em;
+    color:white;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-left: 1%;
+    font-size: 25px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+li{
+font-size: 30px;
+margin-left: 80px;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%; /* Para que ocupe todo el ancho */
+    padding: 10px 0; /* Opcional: para darle un poco de espacio dentro del footer */
+    text-align: center; /* para centrar el texto del footer */
+    background-color: black ;
+    color:white;
+}
+a{
+    color: pink;
+    text-decoration: none;
+}
