@@ -8,7 +8,27 @@ declare variable $html :=
     <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
   </head>
   <body>
-    <h1>Ejercicios XQuery</h1>
+     <header>
+<h1 id="inicio">Ejercicios XQuery</h1>
+      <nav>
+      <div>
+      {for $e in 01 to 14
+       let $n :=format-number($e,"00")
+    return 
+    
+    <a class="indexnav" href="{concat("#ejercicio",$n)}">{$n}</a>} 
+      </div>
+      <div>
+      {for $e in 15 to 28
+       let $n :=format-number($e,"00")
+    return 
+    
+    <a class="indexnav" href="{concat("#ejercicio",$n)}">{$n}</a>} 
+      </div>
+       
+               
+        </nav>
+    </header>
     <table class="index">
       <tr class="indextr">
         <th>Enlaces</th>
@@ -18,7 +38,7 @@ declare variable $html :=
         for $xq in $src
         let $nombre := substring-before($xq, ".xq")
         let $resultado := (
-          (: Creamos una función para buscar el primer archivo de resultado que exista :)
+          (: Se busca buscar el primer archivo de resultado que exista, con la extensión que corresponda :)
           let $posibles_extensiones := ('xml', 'txt', 'html')
           let $archivos_resultado := 
             for $ext in $posibles_extensiones
@@ -35,13 +55,15 @@ declare variable $html :=
         let $imagen := concat('webroot/images/', $nombre, '.png')
         return
           <tr class="indextr">
-            <td class="indextd">
-              <a class="indexa" href="{concat('src/', $xq)}" target="_blank">{$xq}</a><br/>
+            <td id="{$nombre}" class="indextd">
+              <a class="indexa" href="{concat('src/', $xq)}">{$xq}</a><br/>
               {
-                
-                  <a class="indexa" href="{replace($resultado, 'C:/Users/Usuario/OneDrive - Educacyl/AA LENGUAJES/107LMSGIProyectoLMGSI/ud6/03/', '')}" target="_blank">Ver resultado</a>
-                
-              }
+                <a class="indexa" href="{replace($resultado, 'C:/Users/Usuario/OneDrive - Educacyl/AA LENGUAJES/107LMSGIProyectoLMGSI/ud6/03/', '')}" >Ver resultado</a>
+                }
+                <br/>
+                {
+            <a class="indexa" href="#inicio">Ir al inicio</a>
+                }
             </td>
             <td class="indextd">
               {
@@ -55,7 +77,7 @@ declare variable $html :=
       }
     </table>
     <footer class="indexfooter">
-      <div>Todos los derechos reservados. Creado por:<a href="../../index.html" target="_blank" id="nombre"> Véronique Grué</a>
+      <div>Todos los derechos reservados. Creado por:<a href="../../index.html" id="nombre"> Véronique Grué</a>
       </div>
     </footer>
   </body>

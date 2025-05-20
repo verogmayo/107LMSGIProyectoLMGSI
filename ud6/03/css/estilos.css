@@ -92,7 +92,7 @@ border:solid rgb(241, 95, 234);
     color: chartreuse;
 }
 footer{
-    
+    position: fixed;
     bottom: 0;
     left: 0;
     width: 100%; /* Para que ocupe todo el ancho */
@@ -118,4 +118,24 @@ a{
 }
 .indexa{
     color: black;
+}
+header a{
+    
+    text-decoration: none;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+.cabecera{
+
+    color: rgb(241, 95, 234);
+    
+}
+.indexnav{
+
+    color: white;
+}
+nav{
+    text-align: center;
+    background-color: rgb(241, 95, 234) ;
+    
 }

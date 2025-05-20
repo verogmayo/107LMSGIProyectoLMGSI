@@ -6,11 +6,10 @@
   return 
   $x
  
- 
- 
- 
 (:
-Estos son los autores ordenados ascendentes y el numero de carcateres de cada uno<autores>
+Estos son los autores ordenados ascendentes y el numero de carcateres de cada uno
+
+<autores>
 {
   for $x in distinct-values(/bookstore/book/author)
   order by $x

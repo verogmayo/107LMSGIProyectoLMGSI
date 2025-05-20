@@ -20,7 +20,7 @@
           </tr>
       }
     </table>
-    <footer> <div>Todos los derechos reservados. Creado por:<a href="/index.html" target="_blank" id="nombre"> Véronique Grué</a> </div> </footer>
+    <footer> <div>Todos los derechos reservados. Creado por:<a href="../index.html" target="_blank" id="nombre"> Véronique Grué</a> </div> </footer>
    </body>
     
 </html>
