@@ -1,20 +1,17 @@
 (:5.Remplazar el nombre del clietne en la factura F001 por "tu nombre y Apellidos":)
 
 
-let $f := "F001"
-let $n := "Véronique Grué"
-
-for $x in collection("facturasDb")/factura[@id = $f]
+for $x in collection("facturasDb")/factura[@id = "F001"]
 return
-  replace value of node $x/cliente/nombre with $n
+  replace value of node $x/cliente/nombre with "Véronique Grué"
   (:ça remplace le noeud en question avec la variable:)
 
-(:let $f := "F001"
-let $n := "Véronique Grué"
-let $factura := collection("facturasDb")/factura[@id = $f]
+(:
+let $factura := collection("facturasDb")
+where $factura /factura/@id="F001"
 
 return
-  replace value of node $factura/cliente/nombre with $n
+  replace value of node $factura/cliente/nombre with "Veronique Grué"
 :)
 (:let $f := "F001"
 let $n := "Véronique Grué"

@@ -3,4 +3,4 @@
 
 for $x in collection("facturasDb")/factura
 return
-  rename node $x/total as xs:QName("importeTotal")
+  rename node $x/total as "importeTotal"

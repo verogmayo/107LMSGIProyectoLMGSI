@@ -1,0 +1,176 @@
+[
+  {
+    "nombre": "01indice",
+    "src": "src/01indice.xq",
+    "resultado": null,
+    "imagen": "webroot/images/01indice.png"
+  },
+  {
+    "nombre": "ejercicio01",
+    "src": "src/ejercicio01.xq",
+    "resultado": "target/ejercicio01.txt",
+    "imagen": "webroot/images/ejercicio01.png"
+  },
+  {
+    "nombre": "ejercicio02",
+    "src": "src/ejercicio02.xq",
+    "resultado": "target/ejercicio02.txt",
+    "imagen": "webroot/images/ejercicio02.png"
+  },
+  {
+    "nombre": "ejercicio03",
+    "src": "src/ejercicio03.xq",
+    "resultado": "target/ejercicio03.html",
+    "imagen": "webroot/images/ejercicio03.png"
+  },
+  {
+    "nombre": "ejercicio04",
+    "src": "src/ejercicio04.xq",
+    "resultado": "target/ejercicio04.xml",
+    "imagen": "webroot/images/ejercicio04.png"
+  },
+  {
+    "nombre": "ejercicio05",
+    "src": "src/ejercicio05.xq",
+    "resultado": "target/ejercicio05.html",
+    "imagen": "webroot/images/ejercicio05.png"
+  },
+  {
+    "nombre": "ejercicio06",
+    "src": "src/ejercicio06.xq",
+    "resultado": "target/ejercicio06.txt",
+    "imagen": "webroot/images/ejercicio06.png"
+  },
+  {
+    "nombre": "ejercicio07",
+    "src": "src/ejercicio07.xq",
+    "resultado": "target/ejercicio07.xml",
+    "imagen": "webroot/images/ejercicio07.png"
+  },
+  {
+    "nombre": "ejercicio08",
+    "src": "src/ejercicio08.xq",
+    "resultado": "target/ejercicio08.html",
+    "imagen": "webroot/images/ejercicio08.png"
+  },
+  {
+    "nombre": "ejercicio09",
+    "src": "src/ejercicio09.xq",
+    "resultado": "target/ejercicio09.txt",
+    "imagen": "webroot/images/ejercicio09.png"
+  },
+  {
+    "nombre": "ejercicio10",
+    "src": "src/ejercicio10.xq",
+    "resultado": "target/ejercicio10.xml",
+    "imagen": "webroot/images/ejercicio10.png"
+  },
+  {
+    "nombre": "ejercicio11",
+    "src": "src/ejercicio11.xq",
+    "resultado": "target/ejercicio11.xml",
+    "imagen": "webroot/images/ejercicio11.png"
+  },
+  {
+    "nombre": "ejercicio12",
+    "src": "src/ejercicio12.xq",
+    "resultado": "target/ejercicio12.xml",
+    "imagen": "webroot/images/ejercicio12.png"
+  },
+  {
+    "nombre": "ejercicio13",
+    "src": "src/ejercicio13.xq",
+    "resultado": "target/ejercicio13.txt",
+    "imagen": "webroot/images/ejercicio13.png"
+  },
+  {
+    "nombre": "ejercicio14",
+    "src": "src/ejercicio14.xq",
+    "resultado": "target/ejercicio14.xml",
+    "imagen": "webroot/images/ejercicio14.png"
+  },
+  {
+    "nombre": "ejercicio15",
+    "src": "src/ejercicio15.xq",
+    "resultado": "target/ejercicio15.xml",
+    "imagen": "webroot/images/ejercicio15.png"
+  },
+  {
+    "nombre": "ejercicio16",
+    "src": "src/ejercicio16.xq",
+    "resultado": "target/ejercicio16.txt",
+    "imagen": "webroot/images/ejercicio16.png"
+  },
+  {
+    "nombre": "ejercicio17",
+    "src": "src/ejercicio17.xq",
+    "resultado": "target/ejercicio17.xml",
+    "imagen": "webroot/images/ejercicio17.png"
+  },
+  {
+    "nombre": "ejercicio18",
+    "src": "src/ejercicio18.xq",
+    "resultado": "target/ejercicio18.xml",
+    "imagen": "webroot/images/ejercicio18.png"
+  },
+  {
+    "nombre": "ejercicio19",
+    "src": "src/ejercicio19.xq",
+    "resultado": "target/ejercicio19.xml",
+    "imagen": "webroot/images/ejercicio19.png"
+  },
+  {
+    "nombre": "ejercicio20",
+    "src": "src/ejercicio20.xq",
+    "resultado": "target/ejercicio20.xml",
+    "imagen": "webroot/images/ejercicio20.png"
+  },
+  {
+    "nombre": "ejercicio21",
+    "src": "src/ejercicio21.xq",
+    "resultado": "target/ejercicio21.xml",
+    "imagen": "webroot/images/ejercicio21.png"
+  },
+  {
+    "nombre": "ejercicio22",
+    "src": "src/ejercicio22.xq",
+    "resultado": "target/ejercicio22.xml",
+    "imagen": "webroot/images/ejercicio22.png"
+  },
+  {
+    "nombre": "ejercicio23",
+    "src": "src/ejercicio23.xq",
+    "resultado": "target/ejercicio23.txt",
+    "imagen": "webroot/images/ejercicio23.png"
+  },
+  {
+    "nombre": "ejercicio24",
+    "src": "src/ejercicio24.xq",
+    "resultado": "target/ejercicio24.txt",
+    "imagen": "webroot/images/ejercicio24.png"
+  },
+  {
+    "nombre": "ejercicio25",
+    "src": "src/ejercicio25.xq",
+    "resultado": "target/ejercicio25.xml",
+    "imagen": "webroot/images/ejercicio25.png"
+  },
+  {
+    "nombre": "ejercicio26",
+    "src": "src/ejercicio26.xq",
+    "resultado": "target/ejercicio26.xml",
+    "imagen": "webroot/images/ejercicio26.png"
+  },
+  {
+    "nombre": "ejercicio27",
+    "src": "src/ejercicio27.xq",
+    "resultado": "target/ejercicio27.txt",
+    "imagen": "webroot/images/ejercicio27.png"
+  },
+  {
+    "nombre": "ejercicio28",
+    "src": "src/ejercicio28.xq",
+    "resultado": "target/ejercicio28.html",
+    "imagen": "webroot/images/ejercicio28.png"
+  }
+]

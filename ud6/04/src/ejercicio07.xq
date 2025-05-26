@@ -3,4 +3,4 @@
 
  for $x in collection("facturasDb")/factura[@id = "F001"]
 return
-  delete node  $x
+  delete node  $x/estado

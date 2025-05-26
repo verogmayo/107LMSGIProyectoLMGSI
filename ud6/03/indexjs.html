@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ud6.04 - Véronique Grué</title>
+  <title>Ud6.03 - Véronique Grué</title>
   <link href="css/estilos.css" rel="stylesheet" type="text/css" />
   <style>
     img { max-width: 700px; }
@@ -11,7 +11,7 @@
 </head>
 <body>
   <header>
-    <h1 id="inicio">Ejercicios Facturas</h1>
+    <h1 id="inicio">Ejercicios XQuery</h1>
     <nav>
       <div id="nav-1"></div>
       <div id="nav-2"></div>
@@ -38,7 +38,7 @@
       .then(data => {
         const tabla = document.getElementById('tabla-ejercicios');
         const nav1 = document.getElementById('nav-1');
-        
+        const nav2 = document.getElementById('nav-2');
 
         data.forEach((ejercicio, i) => {
           const num = ejercicio.nombre.padStart(2, '0');
@@ -51,8 +51,11 @@
             const soloNumero = num.replace('ejercicio', ''); // quita "ejercicio" dejando solo "01"
 
             navLink.textContent = soloNumero;
+          if (i < 14) {
             nav1.appendChild(navLink);
-          
+          } else {
+            nav2.appendChild(navLink);
+          }
 
           // Crear fila en la tabla
           const fila = document.createElement('tr');
