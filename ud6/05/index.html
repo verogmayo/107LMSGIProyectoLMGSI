@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ud6.05 - Véronique Grué</title>
+  <link href="css/estilos.css" rel="stylesheet" type="text/css" />
+  <style>
+    img { max-width: 700px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 id="inicio">Ejercicios Academia</h1>
+    <nav>
+      <div id="nav-1"></div>
+    </nav>
+  </header>
+
+  <table class="index">
+    <thead>
+      <tr class="indextr">
+        <th>Enlaces</th>
+        <th>Resultado gráfico</th>
+      </tr>
+    </thead>
+    <tbody id="tabla-ejercicios"></tbody>
+  </table>
+
+  <footer class="indexfooter">
+    <div>Todos los derechos reservados. Creado por: <a href="../../index.html" id="nombre">Véronique Grué</a></div>
+  </footer>
+
+  <script>
+    fetch('./generador_json/datos.json')
+      .then(response => response.json())
+      .then(data => {
+        const tabla = document.getElementById('tabla-ejercicios');
+        const nav1 = document.getElementById('nav-1');
+       
+        data.forEach((ejercicio, i) => {
+          const num = ejercicio.nombre.padStart(2, '0');
+
+          // Añadir enlace al nav
+          const navLink = document.createElement('a');
+          navLink.className = 'indexnav';
+          navLink.href = `#ejercicio${num}`;
+         // Extraer solo el número para el texto visible
+            const soloNumero = num.replace('ejercicio', ''); // quita "ejercicio" dejando solo "01"
+
+            navLink.textContent = soloNumero;
+         
+            nav1.appendChild(navLink);
+          
+
+          // Crear fila en la tabla
+          const fila = document.createElement('tr');
+          fila.className = 'indextr';
+          fila.id = `ejercicio${num}`;
+          //ejercicio.src, ejercicio.resultado, es lo que va a buscar en el json
+          const celda1 = document.createElement('td');
+          celda1.className = 'indextd';
+          celda1.innerHTML = `
+            <a class="indexa" href="${ejercicio.src}">${ejercicio.nombre}</a><br/>
+            ${ejercicio.resultado ? `<a class="indexa" href="${ejercicio.resultado}">Ver resultado</a><br/>` : ''}
+            <a class="indexa" href="#inicio">Ir al inicio</a>
+          `;
+
+          const celda2 = document.createElement('td');
+          celda2.className = 'indextd';
+          if (ejercicio.imagen) {
+            const img = document.createElement('img');
+            img.src = ejercicio.imagen;
+            img.alt = `Imagen de ${ejercicio.nombre}`;
+            celda2.appendChild(img);
+          } else {
+            celda2.textContent = 'Sin imagen';
+          }
+
+          fila.appendChild(celda1);
+          fila.appendChild(celda2);
+          tabla.appendChild(fila);
+        });
+      })
+      .catch(error => {
+        console.error('Error cargando datos.json:', error);
+      });
+  </script>
+</body>
+</html>

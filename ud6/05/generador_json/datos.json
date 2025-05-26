@@ -1,0 +1,32 @@
+[
+  {
+    "nombre": "ejercicio01",
+    "src": "src/ejercicio01.xq",
+    "resultado": "target/ejercicio01.txt",
+    "imagen": "webroot/images/ejercicio01.png"
+  },
+  {
+    "nombre": "ejercicio02",
+    "src": "src/ejercicio02.xq",
+    "resultado": "target/ejercicio02.txt",
+    "imagen": "webroot/images/ejercicio02.png"
+  },
+  {
+    "nombre": "ejercicio03",
+    "src": "src/ejercicio03.xq",
+    "resultado": "target/ejercicio03.txt",
+    "imagen": "webroot/images/ejercicio03.png"
+  },
+  {
+    "nombre": "ejercicio04",
+    "src": "src/ejercicio04.xq",
+    "resultado": "target/ejercicio04.txt",
+    "imagen": "webroot/images/ejercicio04.png"
+  },
+  {
+    "nombre": "ejercicio05",
+    "src": "src/ejercicio05.xq",
+    "resultado": "target/ejercicio05.txt",
+    "imagen": "webroot/images/ejercicio05.png"
+  }
+]
