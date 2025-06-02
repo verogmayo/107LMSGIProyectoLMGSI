@@ -83,3 +83,41 @@ declare variable $html :=
   </body>
 </html>;
 $html
+(:Funciones numéricas:
+floor() - devuelve el valor númerico inferior más proximo al dato
+ceiling() - devuelve el valor numérico superior más proximo al dato
+round () - redondea el valor dado al más próximo
+count() - determina el número de items en una colección
+min() y max() devuelve el valor minimo o máximo de los nodos
+avg() - calcula el valor medio de los valores dados
+sum() - calcula la suma total de una cantidad de items dados
+
+Funciones de cadena de texto
+concat() - une dos cadena de texto dadas
+string-length() - devuelve la cantidad de caracteres que forman una cadena
+starwith(), ends-with() determinan si una cadena dada comienza o termina con otra cadena dada
+upper-case(), lower-case() devuelve la cadena en mayúsculas o ninúsculas
+
+Funciones de uso general
+empty() devulve true cuando la secuencia dada no contiene ningún elemento
+exits() - devuelve true cuando una secuenca contiene al menos un elemento
+distict-values() extrae los valores de una secuencia de nodos y crea una nueca secuencia con valores no duplicados
+some, every permiten definir consultas que devuelven algún o todos los elementos que verifiquen la condición dada
+
+Xquery dispone de operadores para hacer comparaciones.
+
+Comparaciones de valores
+
+                        eq = igual
+                        en = no igual
+                        le = menor que
+                        le= menor o igual que
+                        gt = mayor que
+                        ge = mayor o igual que
+                      
+Comparaciones generales: =, !=, <, <=, >, >=
+Secuencia de nodos
+union - devuelve todos los nodos que recibe enter los dos operandos indicados
+intersect - devuelve todos los nodos que aparecen en los dos operandos que recibe
+except - devuelve todos los nodos que aparecen en el primer operando que recibe y que no aparecen en el segundo
+:)

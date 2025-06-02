@@ -1,0 +1,24 @@
+Node.js es un entorno de ejecución para JavaScript que permite a los desarrolladores crear 
+aplicaciones del lado del servidor y herramientas de línea de comandos utilizando JavaScript. 
+Fue creado por Ryan Dahl y está basado en el motor V8 de Google Chrome, conocido por su velocidad y eficiencia. 
+En otras palabras, Node.js permite que JavaScript, que normalmente se ejecuta en el navegador web, 
+también se ejecute en el servidor, lo que facilita la construcción de aplicaciones web y servicios 
+de backend con un solo lenguaje. 
+Características clave de Node.js:
+Lado servidor:
+Permite ejecutar JavaScript en el lado del servidor, gestionando bases de datos, autenticación, enrutamiento de URL, etc. 
+Motor V8:
+Utiliza el motor de JavaScript V8 de Google Chrome, lo que garantiza un rendimiento rápido y eficiente. 
+Modelo de E/S no bloqueante:
+Utiliza un modelo de entrada/salida no bloqueante, lo que permite que Node.js maneje múltiples solicitudes 
+simultáneamente sin detenerse. 
+Orientado a eventos:
+Utiliza un modelo basado en eventos, lo que lo hace ideal para aplicaciones en tiempo real y de alta demanda. 
+Código abierto y multiplataforma:
+Es de código abierto y funciona en diferentes sistemas operativos, lo que facilita su uso y distribución. 
+Aplicaciones comunes de Node.js:
+Servidores web: Construcción de servidores web y aplicaciones web escalables. 
+Aplicaciones en tiempo real: Chat en tiempo real, juegos online, streaming de datos. 
+Herramientas de línea de comandos: Creación de herramientas útiles para la gestión de proyectos y tareas. 
+APIs REST: Creación de APIs que faciliten la interacción entre diferentes aplicaciones. 
+Desarrollo frontend: Utilización de herramientas frontend basadas en Node.js para optimizar aplicaciones web. 

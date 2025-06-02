@@ -11,7 +11,13 @@ for $curso in collection('academia')//curso
 where $curso/aula/@idref = $idAula1
 return data($curso/nombre)
 
+(:
+for $curso in collection('academia')//curso
+let $aula:= collection("academia")/aula[nombre="Aula 1"]
+where $curso/aula/@idref = $aula/@id
+return data($curso/nombre)
 
+:)
 
 
 

@@ -1,0 +1,91 @@
+<aula id="1">
+		<nombre>Aula 1</nombre>
+		<edificio>Edificio Principal</edificio>
+		<puestos>30</puestos>
+	</aula>
+<aula id="2">
+		<nombre>Aula 2</nombre>
+		<edificio>Edificio Principal</edificio>
+		<puestos>40</puestos>
+	</aula>
+<aula id="3">
+		<nombre>Aula 3</nombre>
+		<edificio>Edificio Principal</edificio>
+		<puestos>30</puestos>
+	</aula>
+<curso id="1">
+		<nombre>Bases de Datos OO</nombre>
+		<precio cuota="mensual" moneda="euro">40</precio>
+		<plazas>20</plazas>
+		<comienzo>1/1/2014</comienzo>
+		<fin>1/12/2025</fin>
+		<dias>Lunes a Viernes</dias> 
+		<horainicio>9</horainicio>
+		<horafin>14</horafin>
+		<profesor idref="3"/>
+		<aula idref="1"/>
+	</curso>
+<curso id="2">
+		<nombre>Bases de Datos OR</nombre>
+		<precio cuota="anual" moneda="euro">320</precio>
+		<plazas>8</plazas>
+		<comienzo>1/1/2024</comienzo>
+		<fin>31/12/2024</fin>
+		<dias>Lunes, Miércoles, Viernes</dias> 
+		<horainicio>9</horainicio>
+		<horafin>14</horafin>
+		<profesor>Isabel C. Granados</profesor>
+		<profesor idref="1"/>
+		<aula idref="2"/>
+	</curso>
+<curso id="3">
+		<nombre>Bases de Datos XML</nombre>
+		<precio cuota="trimestral" moneda="euro">80</precio>
+		<plazas>18</plazas>
+		<comienzo>1/2/2024</comienzo>
+		<fin>31/7/2024</fin>
+		<dias>Martes y Jueves</dias> 
+		<horainicio>9</horainicio>
+		<horafin>14</horafin>
+		<profesor idref="1"/>
+		<aula idref="2"/>
+	</curso>
+<curso id="4">
+		<nombre>Programación Java</nombre>
+		<precio cuota="mensual" moneda="euro">30</precio>
+		<plazas>15</plazas>
+		<comienzo>1/1/2024</comienzo>
+		<fin>1/12/2024</fin>
+		<dias>Lunes a Viernes</dias> 
+		<horainicio>16</horainicio>
+		<horafin>20</horafin>
+		<profesor idref="2"/>
+		<aula idref="2"/>
+	</curso>
+<curso id="5">
+		<nombre>Programación en PHP</nombre>
+		<precio cuota="mensual" moneda="euro">50</precio>
+		<plazas>20</plazas>
+		<comienzo>1/1/2024</comienzo>
+		<fin>31/12/2024</fin>
+		<dias>Lunes a Viernes</dias> 
+		<horainicio>16</horainicio>
+		<horafin>20</horafin>
+		<profesor idref="3"/>
+		<aula idref="1"/>
+	</curso>
+<profesor id="1">
+		<nombre>Isabel C. Granados</nombre>
+		<dni>33856315</dni>
+		<email>isabel.granados@dominiox.es</email>
+	</profesor>
+<profesor id="2">
+		<nombre>Jesús Lozano</nombre>
+		<dni>27654123</dni>
+		<email>jesus.lozano@dominiox.es</email>
+	</profesor>
+<profesor id="3">
+		<nombre>Roberto García</nombre>
+		<dni>27543123</dni>
+		<email>roberto.garcia@dominiox.es</email>
+	</profesor>
