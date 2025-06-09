@@ -160,6 +160,53 @@
 			"problemMatcher": [
 				"$saxon-xslt"
 			]
+		},{
+			"type": "xslt",
+			"label": "LanzamientoLinux",
+			"saxonJar": "${config:XSLT.tasks.saxonJar}",
+			"xsltFile": "${workspaceFolder}/examen/Ex3ev-03/src/01.xsl",
+			"xmlSource": "${workspaceFolder}/examen/Ex3ev-03/data/01.xml",
+			"resultPath": "${workspaceFolder}/examen/Ex3ev-03/target/01.html",
+			"allowSyntaxExtensions40": "off",
+			"messageEscaping": "adaptive",
+			"group": {
+				"kind": "build"
+			},
+			"problemMatcher": [
+				"$saxon-xslt"
+			]
+		},
+		{
+			"type": "xslt",
+			"label": "LanzamientoLinuxXML",
+			"saxonJar": "${config:XSLT.tasks.saxonJar}",
+			"xsltFile": "${workspaceFolder}/examen/Ex3ev-03/src/03.xslt",
+			"xmlSource": "${workspaceFolder}/examen/Ex3ev-03/data/01.xml",
+			"resultPath": "${workspaceFolder}/examen/Ex3ev-03/target/03.xml",
+			"allowSyntaxExtensions40": "off",
+			"messageEscaping": "adaptive",
+			"group": {
+				"kind": "build"
+			},
+			"problemMatcher": [
+				"$saxon-xslt"
+			]
+		},
+		{
+			"type": "xslt",
+			"label": "LanzamientoLinuxJSON",
+			"saxonJar": "${config:XSLT.tasks.saxonJar}",
+			"xsltFile": "${workspaceFolder}/examen/Ex3ev-03/src/04.xslt",
+			"xmlSource": "${workspaceFolder}/examen/Ex3ev-03/data/01.xml",
+			"resultPath": "${workspaceFolder}/examen/Ex3ev-03/target/04_1.json",
+			"allowSyntaxExtensions40": "off",
+			"messageEscaping": "adaptive",
+			"group": {
+				"kind": "build"
+			},
+			"problemMatcher": [
+				"$saxon-xslt"
+			]
 		}
 		
 	]
