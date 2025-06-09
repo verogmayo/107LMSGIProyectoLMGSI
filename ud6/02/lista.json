@@ -26,5 +26,17 @@
 {
     "nombre":"Victor",
     "edad":"28"
+},
+{
+    "nombre":"Miguel",
+    "edad":"38"
+},
+{
+    "nombre":"Joaquin",
+    "edad":"27"
+},
+{
+    "nombre":"Claudia",
+    "edad":"21"
 }
 ]}

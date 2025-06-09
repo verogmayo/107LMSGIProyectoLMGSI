@@ -79,6 +79,12 @@ a:hover{
 .xsdUniDiv2{
     height: 8em;
 }
+.xsdUniDiv3{
+    height: 12em;
+}
+.articleExamen{
+    margin-top: 100px;
+}
 h1{
     font-family: 'Amatic SC';
     font-size: 60px;

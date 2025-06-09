@@ -1,0 +1,110 @@
+
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    ;
+}
+body{
+    width: 90%;
+     margin: 0 auto;/*margen del body, se queda centrado*/
+}
+h1{
+    text-align: center;
+    font-size: 35px;
+    padding: 30px;
+    color: green;
+}
+header{
+text-align: center;
+
+}
+h2{
+    color: green;
+}
+
+.contenedor{
+ 
+    border: solid 1px green;
+    margin-bottom: 50px;
+   
+}
+.caja{
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    margin: 10px;
+    justify-content: space-around;
+    
+}
+figure{
+    display: inline-block;
+   
+    
+    height: 280px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.cajitas{
+ border: solid 1px green;
+    width: 32%;
+ height: 280px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+figure:last-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 280px;
+    text-align: center;
+}
+figcaption{
+    border: solid green 1px;
+    margin:10px;
+    padding: 10px;
+    font-size: 12px;
+
+    
+}
+p{
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 30px;
+   
+    
+}
+a{
+    text-decoration: none;
+    color: yellowgreen;
+}
+.nombre{
+    font-size: 30px;
+}
+ul{
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%; /* Para que ocupe todo el ancho */
+    padding: 10px 0; /* Opcional: para darle un poco de espacio dentro del footer */
+    text-align: center; /* para centrar el texto del footer */
+    background-color:green ;
+    color:white;
+}
+.negrita{
+    font-weight: bold;
+}
+

@@ -44,7 +44,7 @@ h2{
   }
 .caja{
     display: flex;
-    
+    margin-bottom: 50px;
     
 }
 .cajita{
@@ -52,5 +52,20 @@ h2{
     border-radius: 20px;
     background-color: rgb(182, 248, 226);
     width: 50%;
+    margin: 20px;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%; /* Para que ocupe todo el ancho */
+    padding: 10px 0; /* Opcional: para darle un poco de espacio dentro del footer */
+    text-align: center; /* para centrar el texto del footer */
+    background-color: black ;
+    color:white;
+}
+a{
+    color: pink;
+    text-decoration: none;
 }
 
