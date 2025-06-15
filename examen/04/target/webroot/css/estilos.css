@@ -1,0 +1,83 @@
+﻿*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    ;
+}
+body{
+    width: 1024px;
+     margin: 0 auto;/*margen del body, se queda centrado*/
+}
+.contenedor{
+ 
+  
+    margin-bottom: 50px;
+   
+}
+h1{
+    text-align: center;
+    padding: 20px;
+    background-color: orange;
+    color: white;
+}
+.caja{
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    margin: 10px;
+    justify-content: space-around;
+height: 330px;
+
+    
+}
+.cajita1{
+display: flex;
+width: 26%;  
+justify-items: center;
+border: solid gold 1px;
+margin: 10px;
+justify-content: center;
+border-radius: 10px;
+height: 300px;
+}
+.cajita2{
+    display: flex;
+background-repeat: no-repeat;
+width: 66%;   
+height: 300px;
+color: green;
+justify-content: center;
+justify-items: center;
+margin: 10px;
+border-radius: 10px;
+padding: 20px;
+
+}
+.fc1{
+    margin-bottom: 10px;
+ text-align: center;
+ margin: 10px;
+ font-weight: bold;
+ 
+}
+.fc2{
+ text-align: center;
+ border: solid grey;
+ background-color: grey;
+ color: white;
+  margin-bottom: 10px;
+border-radius: 2px;
+ }
+footer{
+    width: 1024px;
+    position: fixed;
+    bottom: 0;
+    padding: 10px 0; /* Opcional: para darle un poco de espacio dentro del footer */
+    text-align: center; /* para centrar el texto del footer */
+    background-color:orange;
+    color:white;
+}
+a{
+    text-decoration: none;
+    color: olivedrab;
+}
