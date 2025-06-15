@@ -1,0 +1,122 @@
+Función
+Descripción
+función codepoints-to-string	La función fn:codepoints-to-string devuelve el equivalente de serie de una secuencia de elementos de código Unicode.
+función compare	La función fn:compare compara dos series.
+función concat	La función fn:concat devuelve una serie que es la concatenación de dos o más valores atómicos.
+Función contains	La función fn:contains determina si una serie contiene una subserie específica. La serie de búsqueda se compara utilizando la ordenación predeterminada.
+termina con la función	La función fn:ends-with determina si una serie termina con una subserie específica. La serie de búsqueda se compara utilizando la ordenación predeterminada.
+función lower-case	La función fn:lower-case convierte una serie a minúsculas.
+función matches	La función fn:matches determina si una serie coincide con un patrón específico.
+función normalize-space	La función fn:normalize-space elimina los caracteres de espacio en blanco iniciales y finales de una serie y sustituye cada secuencia interna de caracteres de espacio en blanco por un único carácter en blanco.
+función normalize-unicode	La función fn:normalize-unicode realiza la normalización Unicode en una serie.
+función replace	La función fn:replace compara cada conjunto de caracteres de una serie con un patrón específico y, a continuación, sustituye los caracteres que coinciden con el patrón por otro conjunto de caracteres.
+Función starts-with	La función fn:starts-with determina si una serie empieza por una subserie específica. La serie de búsqueda se compara utilizando la ordenación predeterminada.
+función de serie	La función fn:string devuelve la representación de serie de un valor.
+función de unión de serie	La función fn:string-join devuelve una serie que se genera concatenando elementos separados por un carácter separador.
+función string-length	La función fn:string-length devuelve la longitud de una serie.
+función string-to-codepoints	La función fn:string-to-codepoints devuelve una secuencia de elementos de código Unicode que corresponde a un valor de serie.
+función substring	La función fn:substring devuelve una subserie de una serie.
+función substring-after	La función fn:substring-after devuelve una subserie que aparece en una serie después del final de la primera aparición de una serie de búsqueda específica. La serie de búsqueda se compara utilizando la ordenación predeterminada.
+función de antes de subserie	La función fn:substring-before devuelve una subserie que aparece en una serie antes de la primera aparición de una serie de búsqueda específica. La serie de búsqueda se compara utilizando la ordenación predeterminada.
+función tokenize	La función fn:tokenize divide una serie en una secuencia de subseries.
+función translate	La función fn:translate sustituye los caracteres seleccionados en una serie por caracteres de sustitución.
+Función de mayúscula	La función fn:upper-case convierte una serie a mayúsculas.
+Funciones booleanas
+Función
+Descripción
+función boolean	La función fn:boolean devuelve el valor booleano efectivo de una secuencia.
+función false	La función fn:false devuelve el valor xs: boolean false.
+función not	El fn:not function devuelve false si el valor booleano efectivo de una secuencia es true y devuelve true si el valor booleano efectivo de una secuencia es false.
+función true	La función fn:true devuelve el valor xs: boolean true.
+Funciones de número
+Función
+Descripción
+función abs	La función fn:abs devuelve el valor absoluto de un valor numérico.
+función avg	La función fn:avg devuelve el promedio de los valores de una secuencia.
+Función Techo	La función fn:ceiling devuelve el entero más pequeño que es mayor o igual que un valor numérico específico.
+Función FLOOR	La función fn:floor devuelve el entero más grande que es menor o igual que un valor numérico específico.
+función max	La función fn:max devuelve el máximo de los valores de una secuencia.
+función min	La función fn:min devuelve el mínimo de los valores de una secuencia.
+Función Número	La función fn:number convierte un valor en el tipo de datos xs: double.
+función round	La función fn:round devuelve el entero más cercano a un valor numérico específico.
+función round-half-to-even	La función fn:round-half-to-even devuelve el valor numérico con una precisión especificada más cercana a un valor numérico específico.
+función sum	La función fn:sum devuelve la suma de los valores de una secuencia.
+Funciones de fecha, hora y duración
+Función
+Descripción
+función adjust-date-to-timezone	La función fn:adjust-date-to-timezone ajusta un valor xs: date para un huso horario específico o elimina el componente de huso horario del valor.
+función adjust-dateTime-to-timezone	La función fn:adjust-dateTime-to-timezone ajusta un valor xs:dateTime para una zona horaria específica o elimina el componente de zona horaria del valor.
+función adjust-time-to-timezone	La función fn:adjust-time-to-timezone ajusta un valor xs: time para un huso horario específico o elimina el componente de huso horario del valor.
+función current-date	La función fn:current-date devuelve la fecha actual en el huso horario implícito de UTC.
+función current-dateTime	La función fn:current-dateTime devuelve la fecha y hora actuales en el huso horario implícito de UTC.
+Función current-local-date	La función db2-fn:current-local-date devuelve la fecha actual en el huso horario local.
+Función current-local-dateTime	La función db2-fn:current-local-dateTime devuelve la fecha y hora actuales en el huso horario local.
+Función current-local-time	La función db2-fn:current-local-time devuelve la hora actual en el huso horario local.
+función current-time	La función fn:current-time devuelve la hora actual en el huso horario implícito de UTC.
+función dateTime	La función fn:dateTime construye un valor xs:dateTime a partir de un valor xs:date y un valor xs:time.
+función day-from-date	La función fn:day-from-date devuelve el componente de día de un valor xs: date.
+función day-from-dateTime	La función fn:day-from-dateTime devuelve el componente día de un valor xs:dateTime.
+función days-from-duration	La función fn:days-from-duration devuelve el componente de días de una duración.
+función hours-from-dateTime	La función fn:hours-from-dateTime devuelve el componente horas de un valor xs:dateTime.
+función hours-from-duration	La función fn:hours-from-duration devuelve el componente de horas de un valor de duración.
+función hours-from-time	La función fn:hours-from-time devuelve el componente de horas de un valor xs:time.
+función implicit-timezone	La función fn:implicit-timezone devuelve el valor de zona horaria implícito de PT0S, que es de tipo xs:dayTimeDuration. El valor PT0S indica que UTC es el huso horario implícito.
+Función local-timezone	La función db2-fn:local-timezone devuelve el huso horario del sistema local.
+función minutes-from-dateTime	La función fn:minutes-from-dateTime devuelve el componente minutos de un valor xs:dateTime.
+función minutes-from-duration	La función fn:minutes-from-duration devuelve el componente de minutos de una duración.
+función minutes-from-time	La función fn:minutes-from-time devuelve el componente de minutos de un valor xs:time.
+función month-from-date	La función fn:month-from-date devuelve el componente de mes de un valor xs:date.
+función month-from-dateTime	La función fn:month-from-dateTime devuelve el componente mes de un valor xs:dateTime.
+función months-from-duration	La función fn:months-from-duration devuelve el componente de meses de un valor de duración.
+función seconds-from-dateTime	La función fn:seconds-from-dateTime devuelve el componente segundos de un valor xs:dateTime.
+función seconds-from-duration	La función fn:seconds-from-duration devuelve el componente de segundos de una duración.
+función seconds-from-time	La función fn:seconds-from-time devuelve el componente de segundos de un valor xs:time.
+función timezone-from-date	La función fn:timezone-from-date devuelve el componente de huso horario de un valor xs:date.
+función timezone-from-dateTime	La función fn:timezone-from-dateTime devuelve el componente de zona horaria de un valor xs:dateTime.
+función timezone-from-time	La función fn:timezone-from-time devuelve el componente de huso horario de un valor xs:time.
+función year-from-date	La función fn:year-from-date devuelve el componente de año de un valor xs:date.
+función year-from-dateTime	La función fn:year-from-dateTime devuelve el componente año de un valor xs:dateTime.
+función years-from-duration	La función fn:years-from-duration devuelve el componente de años de una duración.
+Funciones de secuencia
+Función
+Descripción
+función count	La función fn:count devuelve el número de valores de una secuencia.
+función data	La función fn:data devuelve la secuencia de entrada después de sustituir los nodos de la secuencia de entrada por sus valores escritos.
+función deep-equal	La función fn:deep-equal compara dos secuencias para determinar si cumplen los requisitos de igualdad profunda.
+función distinct-values	La función fn:distinct-values devuelve los valores distintos en una secuencia.
+función vacía	La función fn:empty indica si un argumento es una secuencia vacía.
+función exactamente una	La función fn:exactly-one devuelve su argumento si el argumento contiene exactamente un elemento.
+Función exists	La función fn:exists puede comprobar la existencia de muchos tipos diferentes de elementos, como elementos, atributos, nodos de texto, valores atómicos (por ejemplo, un entero) o documentos XML.
+función last	La función fn:last devuelve el número de valores de la secuencia que se está procesando.
+función index-of	La función fn:index-of devuelve las posiciones en las que aparece un elemento en una secuencia.
+función insert-before	La función fn:insert-before inserta una secuencia antes de una posición específica en otra secuencia.
+una o más funciones	La función fn:one-or-more devuelve su argumento si el argumento contiene uno o más elementos.
+función position	La función fn:position devuelve la posición del elemento de contexto en la secuencia que se está procesando.
+Eliminar función	La función fn:remove elimina un elemento de una secuencia.
+función inversa	La función fn:reverse invierte el orden de los elementos en una secuencia.
+función de subsecuencia	La función fn:subsequence devuelve una subsecuencia de una secuencia.
+función no ordenada	La función fn:unordered devuelve los elementos en una secuencia en orden no determinista.
+función cero o uno	La función fn:zero-or-one devuelve su argumento si el argumento contiene un elemento o es la secuencia vacía.
+Funciones Qname
+Función
+Descripción
+función de prefijos en ámbito	La función fn:in-scope-prefixes devuelve una lista de prefijos para todos los espacios de nombres dentro del ámbito de un elemento.
+función local-name-from-QName	La función fn:local-name-from-QName devuelve la parte local de un valor xs: QName.
+función namespace-uri-for-prefix	La función fn:namespace-uri-for-prefix devuelve el URI de espacio de nombres que está asociado con un prefijo en los espacios de nombres dentro del ámbito para un elemento.
+función namespace-uri-from-QName	La función fn:namespace-uri-from-QName devuelve la parte de URI de espacio de nombres de un valor xs: QName.
+Función QName	La función fn:QName crea un nombre expandido a partir de un URI de espacio de nombres y una serie que contiene un QName léxico con un prefijo opcional.
+función resolve-QName	La función fn:resolve-QName convierte una serie que contiene un QName léxico en un QName expandido utilizando los espacios de nombres dentro del ámbito de un elemento para resolver el prefijo de espacio de nombres en un URI de espacio de nombres.
+Funciones de nodo
+Función
+Descripción
+función local-name	La función fn:local-name devuelve la propiedad de nombre local de un nodo.
+función name	La función fn:name devuelve las partes de prefijo y nombre local de un nombre de nodo.
+función namespace-uri	La función fn:namespace-uri devuelve el URI de espacio de nombres del nombre calificado para un nodo.
+función de nombre de nodo	La función fn:node-name devuelve el QName expandido de un nodo.
+función raíz	La función fn:root devuelve el nodo raíz de un árbol al que pertenece un nodo.
+Otras funciones
+Función
+Descripción
+función de ordenación predeterminada	La función fn:default-collation devuelve un URI que representa la ordenación predeterminada definida para la base de datos.
+función sqlquery	La función db2-fn:sqlquery recupera una secuencia que es el resultado de una selección completa de SQL en la base de datos Db2 conectada actualmente.
+Función xmlcolumn	La función db2-fn:xmlcolumn recupera una secuencia de una columna de la base de datos Db2 conectada actualmente.

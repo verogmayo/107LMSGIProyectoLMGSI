@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    
+    <!-- para validar los posibles valores del nombre-->
+    <xs:simpleType name="NombreSigno">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Aries" />
+            <xs:enumeration value="Tauro" />
+            <xs:enumeration value="Geminis" />
+            <xs:enumeration value="Cancer" />
+            <xs:enumeration value="Leo" />
+            <xs:enumeration value="Virgo" />
+            <xs:enumeration value="Libra" />
+            <xs:enumeration value="Escorpio" />
+            <xs:enumeration value="Sagitario" />
+            <xs:enumeration value="Capricornio" />
+            <xs:enumeration value="Acuario" />
+            <xs:enumeration value="Piscis" />
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <!-- para validar la fecha tal como está en ek xml-->
+    <xs:simpleType name="FechaDDMM">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[0-3][0-9]-[0-1][0-9]" />
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:element name="zodiaco">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="signo" minOccurs="1" maxOccurs="12">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="nombre" type="NombreSigno"/>
+                             <xs:element name="fechaInicio" type="FechaDDMM" />
+                            <xs:element name="fechaFin" type="FechaDDMM" />  
+                        </xs:sequence>
+                        <xs:attribute name="id" type="xs:integer" use="required"/>                   
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+</xs:schema>

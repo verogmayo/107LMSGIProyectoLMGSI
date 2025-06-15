@@ -207,6 +207,22 @@
 			"problemMatcher": [
 				"$saxon-xslt"
 			]
+		},
+		{
+			"type": "xslt",
+			"label": "Zodiaco",
+			"saxonJar": "${config:XSLT.tasks.saxonJar}",
+			"xsltFile": "${workspaceFolder}/examen/04/src/01.xslt",
+			"xmlSource": "${workspaceFolder}/examen/04/data/04.xml",
+			"resultPath": "${workspaceFolder}/examen/04/target/index.html",
+			"allowSyntaxExtensions40": "off",
+			"messageEscaping": "adaptive",
+			"group": {
+				"kind": "build"
+			},
+			"problemMatcher": [
+				"$saxon-xslt"
+			]
 		}
 		
 	]

@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"  xmlns:atom="http://www.w3.org/2005/Atom" >
+    <channel> 
+        <atom:link href="https://daw107.ieslossauces.es/feed/rss.xml" rel="self" type="application/rss+xml"/>
+        <title>DAW 107 Véronique Grué </title>        
+        <language>es-es</language>
+        <copyright>Copyright © 2024.Véronique Grué. Todos los derechos reservados</copyright>
+       <image>
+            <url>https://daw107.ieslossauces.es/webroot/media/favicon/favicon-96x96.png</url>
+            <title>DAW 107 Véronique Grué</title>
+            <link>https://daw107.ieslossauces.es</link>
+            <width>96</width>
+            <height>96</height>
+        </image>
+        <lastBuildDate>Fri, 06 Dec 2024 02:27:21 +0200</lastBuildDate>
+        <link>https://daw107.ieslossauces.es</link>
+        <description>
+        Actualidad de la página
+        </description>
+        <skipDays>
+        <day>Saturday</day>
+        <day>Sunday</day>
+        </skipDays>
+        <skipHours>
+        <hour>0</hour>
+        <hour>1</hour>
+        <hour>2</hour>
+        <hour>3</hour>
+        <hour>4</hour>
+        <hour>5</hour>
+        <hour>6</hour>
+        <hour>7</hour>
+        <hour>8</hour> 
+        </skipHours>
+        <item>
+            <title>Examen 04. Horoscopo/Signos del zodiaco</title>
+            <link>https://daw107.ieslossauces.es/107LMSGIProyectoLMGSI/examen/04/target/index.html</link>
+            <description> 
+                <![CDATA[ <img src="https://daw107.ieslossauces.es/weebroot/media/images/Examen04.PNG" width="88" height="31" alt="Examen04 "/> 
+           <p>Examen04</p> ]]>
+            </description>
+            <pubDate>Mon, 9 Jun 2025 18:00:00 +0100</pubDate>
+            <guid isPermaLink="false">Examen04</guid>
+        </item>
+        <item>
+            <title>Examen Ex3ev-03 - 04-HTML</title>
+            <link>https://daw107.ieslossauces.es/107LMSGIProyectoLMGSI/examen/Ex3ev-03/target/04.json</link>
+            <description> 
+           <![CDATA[ <img src="https://daw107.ieslossauces.es/weebroot/media/images/Ex3ev-03-04.PNG" width="88" height="31" alt="Ex3-04 "/> 
+           <p>Ex3-04</p> ]]>
+            </description>
+            <pubDate>Fri, 6 Jun 2025 18:00:00 +0100</pubDate>
+            <guid isPermaLink="false">Ex3-04</guid>
+        </item>
+        <item>
+            <title>Examen Ex3ev-03 - 03-HTML</title>
+            <link>https://daw107.ieslossauces.es/107LMSGIProyectoLMGSI/examen/Ex3ev-03/target/03.xml</link>
+            <description> 
+           <![CDATA[ <img src="https://daw107.ieslossauces.es/weebroot/media/images/Ex3ev-03-03.PNG" width="88" height="31" alt="Ex3-03 "/> 
+           <p>Ex3-03</p> ]]>
+            </description>
+            <pubDate>Fri, 6 Jun 2025 18:00:00 +0100</pubDate>
+            <guid isPermaLink="false">Ex3-03</guid>
+        </item>
+        <item>
+            <title>Examen Ex3ev-03 - 02-HTML</title>
+            <link>https://daw107.ieslossauces.es/107LMSGIProyectoLMGSI/examen/Ex3ev-03/target/02.html</link>
+            <description> 
+           <![CDATA[ <img src="https://daw107.ieslossauces.es/weebroot/media/images/Ex3ev-03-02.PNG" width="88" height="31" alt="Ex3-02 "/> 
+           <p>Ex3-02</p> ]]>
+            </description>
+            <pubDate>Fri, 6 Jun 2025 18:00:00 +0100</pubDate>
+            <guid isPermaLink="false">Ex3-02</guid>
+        </item>
+        <item>
+            <title>Examen Ex3ev-03 - 01-HTML</title>
+            <link>https://daw107.ieslossauces.es/107LMSGIProyectoLMGSI/examen/Ex3ev-03/target/01.html</link>
+            <description> 
+           <![CDATA[ <img src="https://daw107.ieslossauces.es/weebroot/media/images/Ex3ev-03-01.PNG" width="88" height="31" alt="Ex3-01 "/> 
+           <p>Ex3-01</p> ]]>
+            </description>
+            <pubDate>Fri, 6 Jun 2025 18:00:00 +0100</pubDate>
+            <guid isPermaLink="false">Ex3-01</guid>
+        </item>
+        <item>
+            <title>ED- Análisis Ríos-Diagrama Atributos</title>
+            <link>https://daw107.ieslossauces.es/107EDProyectoED/3-AnalisisRios/RiosAtributos.png</link>
+            <description> 
+           <![CDATA[ <img src="https://daw107.ieslossauces.es/weebroot/media/images/ed-RiosDA.PNG" width="88" height="31" alt="AnalisisRiosDA "/> 
+           <p>AnalisisRiosDA</p> ]]>
+            </description>
+            <pubDate>Thr, 27 May 2025 18:00:00 +0100</pubDate>
+            <guid isPermaLink="false">AnalisisRiosDA</guid>
+        </item>
+        <item>
+            <title>ED- Análisis Ríos-Diagrama</title>
+            <link>https://daw107.ieslossauces.es/107EDProyectoED/3-AnalisisRios/Rios.png</link>
+            <description> 
+           <![CDATA[ <img src="https://daw107.ieslossauces.es/weebroot/media/images/ed-RiosD.PNG" width="88" height="31" alt="AnalisisRiosD "/> 
+           <p>AnalisisRiosD</p> ]]>
+            </description>
+            <pubDate>Thr, 27 May 2025 18:00:00 +0100</pubDate>
+            <guid isPermaLink="false">AnalisisRiosD</guid>
+        </item>
+        <item>
+            <title>ED- Análisis Ríos-PDF</title>
+            <link>https://daw107.ieslossauces.es/107EDProyectoED/3-AnalisisRios/AnalisisRios.pdf</link>
+            <description> 
+           <![CDATA[ <img src="https://daw107.ieslossauces.es/weebroot/media/images/ed-Rios.PNG" width="88" height="31" alt="AnalisisRios "/> 
+           <p>AnalisisRios</p> ]]>
+            </description>
+            <pubDate>Thr, 27 May 2025 18:00:00 +0100</pubDate>
+            <guid isPermaLink="false">AnalisisRios</guid>
+        </item>
+        <item>
+            <title>UD6 Actividad 5 - Ejercicios Academia</title>
+            <link>https://daw107.ieslossauces.es/107LMSGIProyectoLMGSI/ud6/05/index.html</link>
+            <description> 
+           <![CDATA[ <img src="https://daw107.ieslossauces.es/weebroot/media/images/ud6-05.PNG" width="88" height="31" alt="XQueryAca "/> 
+           <p>XQueryAca</p> ]]>
+            </description>
+            <pubDate>Fri, 23 May 2025 18:00:00 +0100</pubDate>
+            <guid isPermaLink="false">XQueryAca</guid>
+        </item>
+        <item>
+            <title>UD6 Actividad 4 - Ejercicios Facturas</title>
+            <link>https://daw107.ieslossauces.es/107LMSGIProyectoLMGSI/ud6/04/index.html</link>
+            <description> 
+           <![CDATA[ <img src="https://daw107.ieslossauces.es/weebroot/media/images/ud6-04.PNG" width="88" height="31" alt="XQueryFact "/> 
+           <p>XQueryFact</p> ]]>
+            </description>
+            <pubDate>Fri, 23 May 2025 18:00:00 +0100</pubDate>
+            <guid isPermaLink="false">XQueryFact</guid>
+        </item>
+        <item>
+            <title>UD6 Actividad 3 - Ejercicios XQuery</title>
+            <link>https://daw107.ieslossauces.es/107LMSGIProyectoLMGSI/ud6/03/indexjs.html</link>
+            <description> 
+           <![CDATA[ <img src="https://daw107.ieslossauces.es/weebroot/media/images/ud6-03.PNG" width="88" height="31" alt="XQuery "/> 
+           <p>XQuery</p> ]]>
+            </description>
+            <pubDate>Fri, 16 May 2025 18:00:00 +0100</pubDate>
+            <guid isPermaLink="false">XQuery</guid>
+        </item>
+        <item>
+            <title>UD6 Actividad 2 - Cargar lista Json en el navegador</title>
+            <link>https://daw107.ieslossauces.es/107LMSGIProyectoLMGSI/ud6/02/index.html</link>
+            <description> 
+           <![CDATA[ <img src="https://daw107.ieslossauces.es/weebroot/media/images/ud6-02.PNG" width="88" height="31" alt="CargarListaJson "/> 
+           <p>CargarListaJson</p> ]]>
+            </description>
+            <pubDate>Mon, 5 May 2025 18:00:00 +0100</pubDate>
+            <guid isPermaLink="false">CargarListaJson</guid>
+        </item>
+        <item>
+            <title>Actividad - Gestión de Usuarios</title>
+            <link>https://daw107.ieslossauces.es/107BBDDProyectoBBDD/docs/GestionDeUusarios-V%C3%A9roGru%C3%A9.pdf</link>
+            <description> 
+           <![CDATA[ <img src="https://daw107.ieslossauces.es/weebroot/media/images/BDGestionUsu.PNG" width="88" height="31" alt="GestiónUsu "/> 
+           <p>GestiónUsu</p> ]]>
+            </description>
+            <pubDate>Fri, 2 May 2025 18:00:00 +0100</pubDate>
+            <guid isPermaLink="false">GestiónUsu</guid>
+        </item>
+        <item>
+            <title>UD6 - Actividad 1- Cargar Json y Xml en el navegador</title>
+            <link>https://daw107.ieslossauces.es/107LMSGIProyectoLMGSI/ud6/01/index2.html</link>
+            <description> 
+           <![CDATA[ <img src="https://daw107.ieslossauces.es/weebroot/media/images/ud6-01_2.PNG" width="88" height="31" alt="ud6-01_2 "/> 
+           <p>ud6-01_2</p> ]]>
+            </description>
+            <pubDate>Fri, 2 May 2025 18:00:00 +0100</pubDate>
+            <guid isPermaLink="false">ud6-01_2</guid>
+        </item>
+        <item>
+            <title>UD6 - Actividad 1- Cargar Json en el navegador</title>
+            <link>https://daw107.ieslossauces.es/107LMSGIProyectoLMGSI/ud6/01/index.html</link>
+            <description> 
+           <![CDATA[ <img src="https://daw107.ieslossauces.es/weebroot/media/images/ud6-01.PNG" width="88" height="31" alt="ud6-01 "/> 
+           <p>ud6-01</p> ]]>
+            </description>
+            <pubDate>Fri, 2 May 2025 18:00:00 +0100</pubDate>
+            <guid isPermaLink="false">ud6-01</guid>
+        </item>
+        <item>
+            <title>UD3 - Actividad 3- Tablero</title>
+            <link>https://daw107.ieslossauces.es/107LMSGIProyectoLMGSI/Ud3/03/index.html</link>
+            <description> 
+           <![CDATA[ <img src="https://daw107.ieslossauces.es/weebroot/media/images/ud3_03.PNG" width="88" height="31" alt="Ud3-03 "/> 
+           <p>Ud3-03</p> ]]>
+            </description>
+            <pubDate>Fri, 25 Apr 2025 18:00:00 +0100</pubDate>
+            <guid isPermaLink="false">Ud3-03</guid>
+        </item>
+        <item>
+            <title>UD3 - Actividad 2</title>
+            <link>https://daw107.ieslossauces.es/107LMSGIProyectoLMGSI/Ud3/02/index.html</link>
+            <description> 
+           <![CDATA[ <img src="https://daw107.ieslossauces.es/weebroot/media/images/Ud3-02.PNG" width="88" height="31" alt="Ud3-02 "/> 
+           <p>Ud3-02</p> ]]>
+            </description>
+            <pubDate>Wed, 09 Apr 2025 18:00:00 +0100</pubDate>
+            <guid isPermaLink="false">Ud3-02</guid>
+        </item>
+        <item>
+            <title>Diagrama de clases - EEDD</title>
+            <link>https://daw107.ieslossauces.es/107EDProyectoED/docs/Diagrama%20de%20clases%20ETT.png</link>
+            <description> 
+           <![CDATA[ <img src="https://daw107.ieslossauces.es/weebroot/media/images/DClasesETT.PNG" width="88" height="31" alt="Clases "/> 
+           <p>Clases</p> ]]>
+            </description>
+            <pubDate>Wed, 09 Apr 2025 09:00:00 +0100</pubDate>
+            <guid isPermaLink="false">Clases</guid>
+        </item>
+        <item>
+            <title>Ejercicios IA - EEDD</title>
+            <link>https://github.com/verogmayo/107EDProyectoED/tree/master/EjerciciosIA</link>
+            <description> 
+           <![CDATA[ <img src="https://daw107.ieslossauces.es/weebroot/media/images/EjIAED.PNG" width="88" height="31" alt="Ej IA "/> 
+           <p>Ej IA</p> ]]>
+            </description>
+            <pubDate>Wed, 09 Apr 2025 09:00:00 +0100</pubDate>
+            <guid isPermaLink="false">Ej IA</guid>
+        </item>
+        <item>
+            <title>Ejemplos de usos IA - EEDD</title>
+            <link>https://daw107.ieslossauces.es/107EDProyectoED/docs/EjemploDeUsoIA.pdf</link>
+            <description> 
+           <![CDATA[ <img src="https://daw107.ieslossauces.es/weebroot/media/images/IDE-VS-ED.PNG" width="88" height="31" alt="Usos IA "/> 
+           <p>Usos IA</p> ]]>
+            </description>
+            <pubDate>Wed, 09 Apr 2025 09:00:00 +0100</pubDate>
+            <guid isPermaLink="false">Usos IA</guid>
+        </item>
+        <item>
+            <title>Ejemplo de usos Git - EEDD</title>
+            <link>https://daw107.ieslossauces.es/107EDProyectoED/docs/EjemploDeUsoGit.pdf</link>
+            <description> 
+           <![CDATA[ <img src="https://daw107.ieslossauces.es/weebroot/media/images/IDE-VS-ED.PNG" width="88" height="31" alt="Usos Git "/> 
+           <p>Usos Git</p> ]]>
+            </description>
+            <pubDate>Wed, 09 Apr 2025 09:00:00 +0100</pubDate>
+            <guid isPermaLink="false">Usos Git</guid>
+        </item>
+        <item>
+            <title>Ejemplos de usos Git Hub - EEDD</title>
+            <link>https://daw107.ieslossauces.es/107EDProyectoED/docs/EjemploDeUsoGH.pdf</link>
+            <description> 
+           <![CDATA[ <img src="https://daw107.ieslossauces.es/weebroot/media/images/IDE-VS-ED.PNG" width="88" height="31" alt="Usos GH "/> 
+           <p>Usos GH</p> ]]>
+            </description>
+            <pubDate>Wed, 09 Apr 2025 09:00:00 +0100</pubDate>
+            <guid isPermaLink="false">Usos GH</guid>
+        </item>
+        <item>
+            <title>Ejemplos de usos Filezilla - EEDD</title>
+            <link>https://daw107.ieslossauces.es/107EDProyectoED/docs/EjemploDeUsoFZ.pdf</link>
+            <description> 
+           <![CDATA[ <img src="https://daw107.ieslossauces.es/weebroot/media/images/IDE-VS-ED.PNG" width="88" height="31" alt="Usos FZ "/> 
+           <p>Usos FZ</p> ]]>
+            </description>
+            <pubDate>Wed, 02 Apr 2025 18:00:00 +0100</pubDate>
+            <guid isPermaLink="false">Usos FZ</guid>
+        </item>
+        <item>
+            <title>Ejemplos de usos Workbench - EEDD</title>
+            <link>https://daw107.ieslossauces.es/107EDProyectoED/docs/EjemploDeUsoWB.pdf</link>
+            <description> 
+           <![CDATA[ <img src="https://daw107.ieslossauces.es/weebroot/media/images/IDE-VS-ED.PNG" width="88" height="31" alt="Usos WB "/> 
+           <p>Usos WB</p> ]]>
+            </description>
+            <pubDate>Wed, 02 Apr 2025 18:00:00 +0100</pubDate>
+            <guid isPermaLink="false">Usos WB</guid>
+        </item>
+        <item>
+            <title>Funciones de botones javascript</title>
+            <link>https://daw107.ieslossauces.es/107LMSGIProyectoLMGSI/ud3/01/01.html</link>
+            <description> 
+           <![CDATA[ <img src="https://daw107.ieslossauces.es/weebroot/media/images/ud3-01.PNG" width="88" height="31" alt="Funciones js"/> 
+           <p>Funciones js</p> ]]>
+            </description>
+            <pubDate>Mon, 31 Mar 2025 18:00:00 +0100</pubDate>
+            <guid isPermaLink="false">Funciones js</guid>
+        </item>
+        <item>
+            <title>Ejemplos de usos Visual Studio Code - EEDD</title>
+            <link>https://daw107.ieslossauces.es/107EDProyectoED/docs/EjemploDeUsoVS.pdf</link>
+            <description> 
+           <![CDATA[ <img src="https://daw107.ieslossauces.es/weebroot/media/images/IDE-VS-ED.PNG" width="88" height="31" alt="Usos Visual"/> 
+           <p>Usos Visual</p> ]]>
+            </description>
+            <pubDate>Fri, 21 Mar 2025 18:00:00 +0100</pubDate>
+            <guid isPermaLink="false">Usos Visual</guid>
+        </item>
+         <item>
+            <title>Herramientas Utilizadas - EEDD</title>
+            <link>https://daw107.ieslossauces.es/107EDProyectoED/docs/IDEs-Véronique-Grué.pdf</link>
+            <description> 
+           <![CDATA[ <img src="https://daw107.ieslossauces.es/weebroot/media/images/Ej1ED.PNG" width="88" height="31" alt="Herramientas Utilizadas"/> 
+           <p>Herramientas Utilizadas</p> ]]>
+            </description>
+            <pubDate>Fri, 21 Mar 2025 18:00:00 +0100</pubDate>
+            <guid isPermaLink="false">Herramientas Utilizadas</guid>
+        </item>
+        <item>
+            <title>Actualización Proyectos Programación</title>
+            <link>https://daw107.ieslossauces.es/107PROGProyectoPROG/index.html</link>
+            <description> 
+           <![CDATA[ <img src="https://daw107.ieslossauces.es/weebroot/media/images/PROG.PNG" width="88" height="31" alt="Proyectos Programación"/> 
+           <p>Proyectos Programación</p> ]]>
+            </description>
+            <pubDate>Fri, 21 Mar 2025 18:00:00 +0100</pubDate>
+            <guid isPermaLink="false">Proyectos Programación</guid>
+        </item>
+         <item>
+            <title>Actualización Proyectos BBDD</title>
+            <link>https://daw107.ieslossauces.es/107BBDDProyectoBBDD/index.html</link>
+            <description> 
+           <![CDATA[ <img src="https://daw107.ieslossauces.es/weebroot/media/images/BBDD.PNG" width="88" height="31" alt="Proyectos BBDD"/> 
+           <p>Proyectos BBDD</p> ]]>
+            </description>
+            <pubDate>Fri, 21 Mar 2025 18:00:00 +0100</pubDate>
+            <guid isPermaLink="false">Proyectos BBDD</guid>
+        </item>
+        <item>
+            <title>Enlaces a las otras asignaturas en la pagina principal</title>
+            <link>https://daw107.ieslossauces.es/index.html</link>
+            <description> 
+           <![CDATA[ <img src="https://daw107.ieslossauces.es/weebroot/media/images/indexPrincipal.PNG" width="88" height="31" alt="Enlaces asignaturas"/> 
+           <p>Enlaces asignaturas</p> ]]>
+            </description>
+            <pubDate>Fri, 21 Mar 2025 18:00:00 +0100</pubDate>
+            <guid isPermaLink="false">Enlaces asignaturas</guid>
+        </item>
+         <item>
+            <title>Cambios en el index pincipal-CV en el pie de página</title>
+            <link>https://daw107.ieslossauces.es/index.html</link>
+            <description> 
+           <![CDATA[ <img src="https://daw107.ieslossauces.es/weebroot/media/images/indexPrincipal.PNG" width="88" height="31" alt="Cambios index Principal"/> 
+           <p>Cambios index Principal</p> ]]>
+            </description>
+            <pubDate>Fri, 21 Mar 2025 18:00:00 +0100</pubDate>
+            <guid isPermaLink="false">Cambios index Principal</guid>
+        </item>
+         <item>
+            <title>HTML-Examen 3-Pedido</title>
+            <link>https://daw107.ieslossauces.es/107LMSGIProyectoLMGSI/examen/03/target/pedido.html</link>
+            <description> 
+           <![CDATA[ <img src="https://daw107.ieslossauces.es/weebroot/media/images/Examen3.PNG" width="88" height="31" alt="HTML-Examen 3-Pedido"/> 
+           <p>HTML-Examen 3-Pedido</p> ]]>
+            </description>
+            <pubDate>Fri, 21 Mar 2025 18:00:00 +0100</pubDate>
+            <guid isPermaLink="false">HTML-Examen 3-Pedido</guid>
+        </item>
+        <item>
+            <title>XSL-Examen 3-Pedido</title>
+            <link>https://daw107.ieslossauces.es/107LMSGIProyectoLMGSI/examen/03/src/pedido.xsl</link>
+            <description> 
+           <![CDATA[ <img src="https://daw107.ieslossauces.es/weebroot/media/images/Examen3.PNG" width="88" height="31" alt="XSL-Examen 3-Pedido"/> 
+           <p>XSL-Examen 3-Pedido</p> ]]>
+            </description>
+            <pubDate>Fri, 21 Mar 2025 18:00:00 +0100</pubDate>
+            <guid isPermaLink="false">XSL-Examen 3-Pedido</guid>
+        </item>
+        <item>
+            <title>XSD-Examen 3-Pedido</title>
+            <link>https://daw107.ieslossauces.es/107LMSGIProyectoLMGSI/examen/03/input/pedido.xsd</link>
+            <description> 
+           <![CDATA[ <img src="https://daw107.ieslossauces.es/weebroot/media/images/Examen3.PNG" width="88" height="31" alt="XSD-Examen 3-Pedido"/> 
+           <p>XSD-Examen 3-Pedido</p> ]]>
+            </description>
+            <pubDate>Fri, 21 Mar 2025 18:00:00 +0100</pubDate>
+            <guid isPermaLink="false">XSD-Examen 3-Pedido</guid>
+        </item>
+        <item>
+            <title>DTD-Examen 3-Componentes</title>
+            <link>https://daw107.ieslossauces.es/107LMSGIProyectoLMGSI/examen/03/input/componentes.dtd</link>
+            <description> 
+           <![CDATA[ <img src="https://daw107.ieslossauces.es/weebroot/media/images/Examen3.PNG" width="88" height="31" alt="DTD-Examen 3-Componentes"/> 
+           <p>DTD-Examen 3-Componentes</p> ]]>
+            </description>
+            <pubDate>Fri, 21 Mar 2025 18:00:00 +0100</pubDate>
+            <guid isPermaLink="false">DTD-Examen 3-Componentes</guid>
+        </item>
+        <item>
+            <title>03-MD Ex2Ev-02</title>
+            <link>https://daw107.ieslossauces.es/107LMSGIProyectoLMGSI/examen/Ex2ev-02/src/Xpath.md</link>
+            <description> 
+           <![CDATA[ <img src="https://daw107.ieslossauces.es/weebroot/media/images/Ex2ev-02.PNG" width="88" height="31" alt="03-MD Ex2Ev-02"/> 
+           <p>03-MD Ex2Ev-02</p> ]]>
+            </description>
+            <pubDate>Fri, 21 Mar 2025 18:00:00 +0100</pubDate>
+            <guid isPermaLink="false">03-MD Ex2Ev-02</guid>
+        </item>
+        <item>
+            <title>02-XML Ex2Ev-02</title>
+            <link>https://daw107.ieslossauces.es/107LMSGIProyectoLMGSI/examen/Ex2ev-02/target/JoaquinSabina.xml</link>
+            <description> 
+           <![CDATA[ <img src="https://daw107.ieslossauces.es/weebroot/media/images/Ex2ev-02.PNG" width="88" height="31" alt="02-XML Ex2Ev-02"/> 
+           <p>02-XML Ex2Ev-02</p> ]]>
+            </description>
+            <pubDate>Fri, 21 Mar 2025 18:00:00 +0100</pubDate>
+            <guid isPermaLink="false">02-XML Ex2Ev-02</guid>
+        </item>
+        <item>
+            <title>02-XSL Ex2Ev-02</title>
+            <link>https://daw107.ieslossauces.es/107LMSGIProyectoLMGSI/examen/Ex2ev-02/src/FmAXml.xsl</link>
+            <description> 
+           <![CDATA[ <img src="https://daw107.ieslossauces.es/weebroot/media/images/Ex2ev-02.PNG" width="88" height="31" alt="02-XSL Ex2Ev-02"/> 
+           <p>02-XSL Ex2Ev-02</p> ]]>
+            </description>
+            <pubDate>Fri, 21 Mar 2025 18:00:00 +0100</pubDate>
+            <guid isPermaLink="false">02-XSL Ex2Ev-02</guid>
+        </item>
+        <item>
+            <title>01-HTML Ex2Ev-02</title>
+            <link>https://daw107.ieslossauces.es/107LMSGIProyectoLMGSI/Ex2ev-02/target/JoaquinSabina.html</link>
+            <description> 
+           <![CDATA[ <img src="https://daw107.ieslossauces.es/weebroot/media/images/Ex2ev-02.PNG" width="88" height="31" alt="01-HTML Ex2Ev-02"/> 
+           <p>01-HTML Ex2Ev-02</p> ]]>
+            </description>
+            <pubDate>Fri, 21 Mar 2025 18:00:00 +0100</pubDate>
+            <guid isPermaLink="false">01-HTML Ex2Ev-02</guid>
+        </item>
+        <item>
+            <title>01-XSL Ex2Ev-02</title>
+            <link>https://daw107.ieslossauces.es/107LMSGIProyectoLMGSI/examen/Ex2ev-02/src/FmAWeb.xsl</link>
+            <description> 
+           <![CDATA[ <img src="https://daw107.ieslossauces.es/weebroot/media/images/Ex2ev-02.PNG" width="88" height="31" alt="01-XSL Ex2Ev-02"/> 
+           <p>01-XSL Ex2Ev-02</p> ]]>
+            </description>
+            <pubDate>Fri, 21 Mar 2025 18:00:00 +0100</pubDate>
+            <guid isPermaLink="false">01-XSL Ex2Ev-02</guid>
+        </item>
+        <item>
+            <title>MD Ex2ev-01</title>
+            <link>https://daw107.ieslossauces.es/107LMSGIProyectoLMGSI/examen/Ex2ev-01/03.md</link>
+            <description> 
+           <![CDATA[ <img src="https://daw107.ieslossauces.es/weebroot/media/images/Ex2ev-01.PNG" width="88" height="31" alt="MD Ex2ev-01"/> 
+           <p>MD Ex2ev-01</p> ]]>
+            </description>
+            <pubDate>Fri, 07 Mar 2025 18:00:00 +0100</pubDate>
+            <guid isPermaLink="false">MD Ex2ev-01</guid>
+        </item>
+        <item>
+            <title>DTD Ex2ev-01</title>
+            <link>https://daw107.ieslossauces.es/107LMSGIProyectoLMGSI/examen/Ex2ev-01/02.dtd</link>
+            <description> 
+           <![CDATA[ <img src="https://daw107.ieslossauces.es/weebroot/media/images/Ex2ev-01.PNG" width="88" height="31" alt="DTD Ex2ev-01"/> 
+           <p>DTD Ex2ev-01</p> ]]>
+            </description>
+            <pubDate>Fri, 07 Mar 2025 18:00:00 +0100</pubDate>
+            <guid isPermaLink="false">DTD Ex2ev-01</guid>
+        </item>
+        <item>
+            <title>XSD Ex2ev-01</title>
+            <link>https://daw107.ieslossauces.es/107LMSGIProyectoLMGSI/examen/Ex2ev-01/01.xsd</link>
+            <description> 
+           <![CDATA[ <img src="https://daw107.ieslossauces.es/weebroot/media/images/Ex2ev-01.PNG" width="88" height="31" alt=">XSD Ex2ev-01"/> 
+           <p>XSD Ex2ev-01</p> ]]>
+            </description>
+            <pubDate>Fri, 07 Mar 2025 18:00:00 +0100</pubDate>
+            <guid isPermaLink="false">XSD Ex2ev-01</guid>
+        </item>
+        <item>
+            <title>XSL Predicción</title>
+            <link>https://daw107.ieslossauces.es/107LMSGIProyectoLMGSI/ud5/07/target/index.html</link>
+            <description> 
+           <![CDATA[ <img src="https://daw107.ieslossauces.es/weebroot/media/images/XSL_Prediccion.jpeg" width="88" height="31" alt="XSL Predicción"/> 
+           <p>XSL Predicción</p> ]]>
+            </description>
+            <pubDate>Fri, 21 Feb 2025 18:00:00 +0100</pubDate>
+            <guid isPermaLink="false">XSL Predicción</guid>
+        </item>
+        <item>
+            <title>XSL Network</title>
+            <link>https://daw107.ieslossauces.es/107LMSGIProyectoLMGSI/ud5/06/target/index.yaml</link>
+            <description> 
+           <![CDATA[ <img src="https://daw107.ieslossauces.es/weebroot/media/images/XSL_Network.jpeg" width="88" height="31" alt="XSL Network"/> 
+           <p>XSL Network</p> ]]>
+            </description>
+            <pubDate>Fri, 21 Feb 2025 18:00:00 +0100</pubDate>
+            <guid isPermaLink="false">XSL Network</guid>
+        </item>
+        <item>
+            <title>XSL Test</title>
+            <link>https://daw107.ieslossauces.es/107LMSGIProyectoLMGSI/ud5/04/target/index.html</link>
+            <description> 
+           <![CDATA[ <img src="https://daw107.ieslossauces.es/weebroot/media/images/XSL_Test.jpeg" width="88" height="31" alt="XSL Test"/> 
+           <p>XSL Test</p> ]]>
+            </description>
+            <pubDate>Fri, 21 Feb 2025 18:00:00 +0100</pubDate>
+            <guid isPermaLink="false">XSL Test</guid>
+        </item>
+        <item>
+            <title>XPATH Tickets</title>
+            <link>https://daw107.ieslossauces.es/107LMSGIProyectoLMGSI/ud5/03/index.html</link>
+            <description> 
+           <![CDATA[ <img src="https://daw107.ieslossauces.es/weebroot/media/images/Xpath.jpg" width="88" height="31" alt="XPATH Tic"/> 
+           <p>XPATH Tickets</p> ]]>
+            </description>
+            <pubDate>Fri, 07 Feb 2025 18:00:00 +0100</pubDate>
+            <guid isPermaLink="false">XPATH Tickets</guid>
+        </item>
+        <item>
+            <title>XPATH Alumnos - PDF</title>
+            <link>https://daw107.ieslossauces.es/107LMSGIProyectoLMGSI/ud5/02/01.pdf</link>
+            <description> 
+           <![CDATA[ <img src="https://daw107.ieslossauces.es/weebroot/media/images/Xpath.jpg" width="88" height="31" alt="XPATH Al"/> 
+           <p>XPATH Alumnos</p> ]]>
+            </description>
+            <pubDate>Fri, 07 Feb 2025 18:00:00 +0100</pubDate>
+            <guid isPermaLink="false">XPATH Alumnos</guid>
+        </item>
+        <item>
+            <title>XSD Uni Universidad</title>
+            <link>https://daw107.ieslossauces.es/107LMSGIProyectoLMGSI/ud4/04.02/universidad.xsd</link>
+            <description> 
+           <![CDATA[ <img src="https://daw107.ieslossauces.es/weebroot/media/images/logoXSD.png" width="88" height="31" alt="XSD Uni Uni"/> 
+           <p>XSD Uni Universidad</p> ]]>
+            </description>
+            <pubDate>Fri, 31 Jan 2025 18:00:00 +0100</pubDate>
+            <guid isPermaLink="false">XSD Uni Universidad</guid>
+        </item>
+        <item>
+            <title>XSD Carreras Universidad</title>
+            <link>https://daw107.ieslossauces.es/107LMSGIProyectoLMGSI/ud4/04.02/carreras.xsd</link>
+            <description> 
+           <![CDATA[ <img src="https://daw107.ieslossauces.es/weebroot/media/images/logoXSD.png" width="88" height="31" alt="XSD Carreras Uni"/> 
+           <p>XSD Carreras Universidad</p> ]]>
+            </description>
+            <pubDate>Fri, 31 Jan 2025 18:00:00 +0100</pubDate>
+            <guid isPermaLink="false">XSD Carreras Universidad</guid>
+        </item>
+        <item>
+            <title>XSD Asignaturas Universidad</title>
+            <link>https://daw107.ieslossauces.es/107LMSGIProyectoLMGSI/ud4/04.02/asignaturas.xsd</link>
+            <description> 
+           <![CDATA[ <img src="https://daw107.ieslossauces.es/weebroot/media/images/logoXSD.png" width="88" height="31" alt="XSD Asignaturas Uni"/> 
+           <p>XSD Asignaturas Universidad</p> ]]>
+            </description>
+            <pubDate>Fri, 31 Jan 2025 18:00:00 +0100</pubDate>
+            <guid isPermaLink="false">XSD Asignaturas Universidad</guid>
+        </item>
+        <item>
+            <title>XSD Alumnos Universidad</title>
+            <link>https://daw107.ieslossauces.es/107LMSGIProyectoLMGSI/ud4/04.02/alumnos.xsd</link>
+            <description> 
+           <![CDATA[ <img src="https://daw107.ieslossauces.es/weebroot/media/images/logoXSD.png" width="88" height="31" alt="XSD Alummos Uni"/> 
+           <p>XSD Alumnos Universidad</p> ]]>
+            </description>
+            <pubDate>Fri, 31 Jan 2025 18:00:00 +0100</pubDate>
+            <guid isPermaLink="false">XSD Alumnos Universidad</guid>
+        </item>
+        <item>
+            <title>XSD Universidad</title>
+            <link>https://daw107.ieslossauces.es/107LMSGIProyectoLMGSI/ud4/04.02/04.02.xsd</link>
+            <description> 
+           <![CDATA[ <img src="https://daw107.ieslossauces.es/weebroot/media/images/logoXSD.png" width="88" height="31" alt="XSD Uni"/> 
+           <p>XSD Universidad</p> ]]>
+            </description>
+            <pubDate>Fri, 31 Jan 2025 18:00:00 +0100</pubDate>
+            <guid isPermaLink="false">XSD Universidad</guid>
+        </item>
+        <item>
+            <title>DTD Universidad</title>
+            <link>https://daw107.ieslossauces.es/107LMSGIProyectoLMGSI/ud4/04.02/04.02.dtd</link>
+            <description> 
+           <![CDATA[ <img src="https://daw107.ieslossauces.es/weebroot/media/images/logoDTD.png" width="88" height="31" alt="DTD Uni"/> 
+           <p>DTD Universida</p> ]]>
+            </description>
+            <pubDate>Fri, 31 Jan 2025 18:00:00 +0100</pubDate>
+            <guid isPermaLink="false">DTD Universidad</guid>
+        </item>
+        <item>
+            <title>XML Universidad</title>
+            <link>https://daw107.ieslossauces.es/107LMSGIProyectoLMGSI/ud4/04.02/04.02.xml</link>
+            <description> 
+           <![CDATA[ <img src="https://daw107.ieslossauces.es/weebroot/media/images/logoXML.png" width="88" height="31" alt="XML Uni"/> 
+           <p>XML Universidad</p> ]]>
+            </description>
+            <pubDate>Fri, 31 Jan 2025 18:00:00 +0100</pubDate>
+            <guid isPermaLink="false">XML Universidad</guid>
+        </item>
+         <item>
+            <title>XPath Universidad</title>
+            <link>https://daw107.ieslossauces.es/107LMSGIProyectoLMGSI/ud5/01/01.md</link>
+            <description> 
+           <![CDATA[ <img src="https://daw107.ieslossauces.es/weebroot/media/images/Xpath.jpg" width="88" height="31" alt="XPath"/> 
+           <p>XPath Universidad</p> ]]>
+            </description>
+            <pubDate>Thu, 30 Jan 2025 18:00:00 +0100</pubDate>
+            <guid isPermaLink="false">Xpath Universidad</guid>
+        </item>
+           <item>
+            <title>Proyecto subido a Github</title>
+            <link>https://daw107.ieslossauces.es/</link>
+            <description> 
+           <![CDATA[ <img src="https://daw107.ieslossauces.es/weebroot/media/images/Github.png" width="88" height="31" alt="Github"/> 
+           <p>Enlace Github</p> ]]>
+            </description>
+            <pubDate>Fri, 10 Jan 2025 18:00:00 +0100</pubDate>
+            <guid isPermaLink="false">Enlace Github</guid>
+        </item>
+        <item>
+            <title>Validar RSS</title>
+            <link>https://daw107.ieslossauces.es/</link>
+            <description> 
+           <![CDATA[ <img src="https://daw107.ieslossauces.es/weebroot/media/images/valid-rss.png" width="88" height="31" alt="Juegos"/> 
+           <p>Validar RSS</p> ]]>
+            </description>
+            <pubDate>Wed, 18 Dec 2024 18:00:00 +0100</pubDate>
+            <guid isPermaLink="false">Validar RSS</guid>
+        </item>
+        <item>
+            <title>Examen 02</title>
+            <link>https://daw107.ieslossauces.es/107LMSGIProyectoLMGSI/examen/02/inicio.html</link>
+            <description> 
+           <![CDATA[ <img src="https://daw107.ieslossauces.es/weebroot/media/images/examen_02.png" width="88" height="31" alt="Juegos"/> 
+           <p>Los Juegos del Hambre</p> ]]>
+            </description>
+            <pubDate>Mon, 16 Dec 2024 21:00:00 +0100</pubDate>
+            <guid isPermaLink="false">Examen 02</guid>
+        </item>
+        <item>
+            <title>Práctica ud2.03</title>
+            <link>https://daw107.ieslossauces.es/107LMSGIProyectoLMGSI/ud2/03/index.html</link>
+            <description> 
+           <![CDATA[ <img src="https://daw107.ieslossauces.es/weebroot/media/images/ud2_03.png" width="88" height="31" alt="Formulario"/> <p>Formulario</p> ]]>
+            </description>
+            <pubDate>Mon, 16 Dec 2024 21:00:00 +0100</pubDate>
+            <guid isPermaLink="false">Práctica ud2.03</guid>
+        </item>
+        <item>
+            <title>Práctica ud4.03</title>
+            <link>https://daw107.ieslossauces.es/107LMSGIProyectoLMGSI/ud4/03/03.xml</link>
+            <description> 
+           <![CDATA[ <img src="https://daw107.ieslossauces.es/weebroot/media/images/ud4.03_2.png" width="88" height="31" alt="Programming 
+           languages"/> <p>Programming languages</p> ]]>
+            </description>
+            <pubDate>Fri, 06 Dec 2024 12:00:00 +0100</pubDate>
+            <guid isPermaLink="false">Práctica ud4.03</guid>
+        </item>
+        <item>
+            <title>Incorporación del icono de Validation HTML </title>
+            <link>https://daw107.ieslossauces.es/107LMSGIProyectoLMGSI/ud2/01/01.xml</link>
+            <description> 
+           <![CDATA[ <img src="https://daw107.ieslossauces.es/weebroot/media/images/W3C®_Icon.svg" width="88" height="31" alt="Icono W3C"/> <p>Icono W3C</p> ]]>
+            </description>
+            <pubDate>Fri, 06 Dec 2024 12:00:00 +0100</pubDate>
+            <guid isPermaLink="false">Incorporación del icono de Validation HTML</guid>
+        </item>
+        <item>
+            <title>Práctica ud4.02</title>
+            <link>https://daw107.ieslossauces.es/107LMSGIProyectoLMGSI/ud4/02/02.xml</link>
+            <description> 
+           <![CDATA[ <img src="https://daw107.ieslossauces.es/weebroot/media/images/ud4.02.png" width="88" height="31" alt="XML Librería"/> <p>XML Librería</p> ]]>
+            </description>
+            <pubDate>Fri, 06 Dec 2024 12:00:00 +0100</pubDate>
+            <guid isPermaLink="false">Práctica ud4.02</guid>
+        </item>
+        <item>
+            <title>Práctica ud1.01</title>
+            <link>https://daw107.ieslossauces.es/107LMSGIProyectoLMGSI/ud1/docs/MapaIntroLenguajesdemarcado-V%C3%A9roniqueGru%C3%A9.pdf</link>
+            <description> 
+           <![CDATA[ <img src="https://daw107.ieslossauces.es/107LMSGIProyectoLMSGI/ud1/images/MapaLenguajes.png" width="88" height="31" alt="Mapa mental Lenguajes"/> <p>Mapa mental Lenguajes</p> ]]>
+            </description>
+            <pubDate>Sun, 01 Dec 2024 12:00:00 +0100</pubDate>
+            <guid isPermaLink="false">Práctica ud1.01</guid>
+        </item>
+        <item>
+            <title>Práctica ud2.04.2</title>
+            <link>https://daw107.ieslossauces.es/107LMSGIProyectoLMGSI/ud2/04.2/index.html</link>
+            <description> 
+           <![CDATA[ <img src="https://daw107.ieslossauces.es/107LMSGIProyectoLMSGI/ud2/04.2/images/MulpimediaPasteleria.jpeg" width="88" height="31"  alt="Multimedia Repostería"/> <p>Multimedia Pepostería</p> ]]>
+            </description>
+            <pubDate>Sat, 30 Nov 2024 12:00:00 +0100</pubDate>
+            <guid isPermaLink="false">Práctica ud2.04.2</guid>
+        </item>
+        <item>
+            <title>Práctica ud4.01</title>
+            <link>https://daw107.ieslossauces.es/107LMSGIProyectoLMGSI/ud4/01/01.xml</link>
+            <description> 
+           <![CDATA[ <img src="https://daw107.ieslossauces.es/107LMSGIProyectoLMSGI/ud4/01/media/images/NotaXML.png" width="88" height="31" alt="Postit XML"/> <p>XML DTD Schema XML</p> ]]>
+            </description>
+            <pubDate>Tue, 26 Nov 2024 12:00:00 +0100</pubDate>
+            <guid isPermaLink="false">Práctica ud4.01</guid>
+        </item>
+        <item>
+            <title>Práctica ud2.06 RSS</title>
+            <link>https://daw107.ieslossauces.es/feed/canal.xml</link>
+            <description> 
+            <![CDATA[ <img src="https://daw107.ieslossauces.es/webroot/media/images/iconoRSS.jpg" width="88" height="31" alt="Icono RSS"/> <p>Sindicación de contenido</p> ]]>
+            </description>
+            <pubDate>Tue, 26 Nov 2024 12:00:00 +0100</pubDate>
+            <guid isPermaLink="false">Práctica ud2.06</guid>
+        </item>
+        <item>
+            <title>Práctica ud2.02.2 (CSS)</title>
+            <link>https://daw107.ieslossauces.es/107LMSGIProyectoLMGSI/ud2/02.2/index.html</link>
+            <description> 
+             <![CDATA[ <img src="https://daw107.ieslossauces.es/webroot/media/images/HorarioPos.png" width="88" height="31" alt="Horario Posicionamiento"/> <p>Posicionamiento e iconos</p> ]]>
+            </description>
+            <pubDate>Wed, 13 Nov 2024 12:00:00 +0100</pubDate>
+            <guid isPermaLink="false">Práctica ud2.02.2</guid>
+        </item>
+        <item>
+            <title>Práctica ud2.02 (CSS)</title>
+            <link>https://daw107.ieslossauces.es/107LMSGIProyectoLMGSI/ud2/02/index.html</link>
+            <description> 
+             <![CDATA[ <img src="https://daw107.ieslossauces.es/webroot/media/images/HorarioMod.png" width="88" height="31" alt="Horario Modificado"/> <p>Modificación del horario</p> ]]>
+            </description>
+            <pubDate>Wed, 13 Nov 2024 12:00:00 +0100</pubDate>
+            <guid isPermaLink="false">Práctica ud2.02</guid>
+        </item>
+       </channel>
+</rss>
